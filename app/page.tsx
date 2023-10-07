@@ -2,6 +2,10 @@
 import React from 'react';
 
 export default function Home() {
+  // Define the URL of your image
+  const imageUrl = 'https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp134p1.jpg';
+
+  
   return (
     <div className="min-h-screen flex flex-col">
       {/* Title with blue background */}
@@ -24,6 +28,10 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Display the image */}
+      <div className="mx-auto my-4 w-1/2">
+        <img src={imageUrl} alt="Canada Species Registry" className="w-full rounded-lg border border-black shadow-md" />
+      </div>
 
        {/* First fun fact box */}
       <div className="bg-white p-4 rounded-lg border border-black shadow-md mx-auto my-4 w-1/2">

@@ -1,6 +1,8 @@
+'use client'
+
 import speciesData from '../public/Species.json';
 import AnimalCard from '../components/AnimalCard.js'; 
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Home() {
 
@@ -15,7 +17,19 @@ export default function Home() {
     leadRegion: 'Pacific',
   };
 
-  
+  const [selectedStatusFilter, setSelectedStatusFilter] = useState('Endangered');
+  const [selectedLocationFilter, setSelectedLocationFilter] = useState('Range');
+
+  // Function to handle status filter selection
+  const handleStatusFilterChange = (event: any) => {
+    setSelectedStatusFilter(event.target.value);
+  };
+
+  // Function to handle location filter selection
+  const handleLocationFilterChange = (event: any) => {
+    setSelectedLocationFilter(event.target.value);
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Title with blue background */}
@@ -39,20 +53,59 @@ export default function Home() {
       </div>
 
      
+      {/* Filters */}
+      <div className="p-4 mx-auto w-1/2">
+        <label htmlFor="filter">Filter by Status:</label>
+        <select
+          id="filter"
+          className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
+          onChange={handleStatusFilterChange}
+          value={selectedStatusFilter}
+        >
+          <option value="Endangered">Endangered</option>
+          <option value="Threatened">Threatened</option>
+          <option value="Special Concern">Special Concern</option>
+          <option value="Data Deficient">Data Deficient</option>
+          <option value="Non-active">Non-active</option>
+          <option value="Not at Risk">Not at Risk</option>
+          <option value="Extirpated">Extirpated</option>
+          <option value="Extinct">Extinct</option>
+        </select>
+      </div>
+
+      {/* Filters */}
+      <div className="p-4 mx-auto w-1/2">
+        <label htmlFor="filter">Filter by Status:</label>
+        <select
+          id="filter"
+          className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
+          onChange={handleLocationFilterChange}
+          value={selectedLocationFilter}
+        >
+          <option value="Range">Range</option>
+          <option value="Ontario">Ontario</option>
+          <option value="Atlantic Ocean">Atlantic Ocean</option>
+          <option value="British Columbia">British Columbia</option>
+          <option value="Northwest Territories">Northwest Territories</option>
+          <option value="Saskatchewan">Saskatchewan</option>
+          <option value="Quebec">Quebec</option>
+          <option value="Alberta">Alberta</option>
+          <option value="Manitoba">Manitoba</option>
+          <option value="Yukon">Yukon</option>
+          <option value="Pacific Ocean">Pacific Ocean</option>
+          <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+          <option value="Arctic Ocean">Arctic Ocean</option>
+          <option value="Prince Edward Island">Prince Edward Island</option>
+          <option value="Nova Scotia">Nova Scotia</option>
+          <option value="Nunavut">Nunavut</option>
+          <option value="New Brunswick">New Brunswick</option>
+        </select>
+      </div>
 
       <AnimalCard {...animalData} />
 
-       {/* First fun fact box */}
-      <div className="bg-white p-4 rounded-lg border border-black shadow-md mx-auto my-4 w-1/2">
-        <h2 className="text-xl font-semibold mb-2 text-center">Fun Fact 1</h2>
-        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
+      
 
-      {/* Second fun fact box */}
-      <div className="bg-white p-4 rounded-lg border border-black shadow-md mx-auto my-4 w-1/2">
-        <h2 className="text-xl font-semibold mb-2 text-center">Fun Fact 2</h2>
-        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
     </div>
   );
 }

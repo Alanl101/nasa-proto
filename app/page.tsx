@@ -34,7 +34,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       {/* Title with blue background */}
       <header className="bg-blue-600 py-4 text-white text-center">
-        <h1 className="text-2xl font-semibold">Title</h1>
+        <h1 className="text-2xl font-semibold">Operation Save Them Sea Critters</h1>
       </header>
       
       {/* Search bar */}

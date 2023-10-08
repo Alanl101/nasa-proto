@@ -16,14 +16,14 @@ function AnimalCard(props) {
     <div className="bg-white p-4 rounded-lg border border-black shadow-md mx-auto my-4 w-1/2 cursor-pointer flex">
       {/* Left column for the image */}
       <div className="w-1/2">
-        <Link href="../app/animal-detail.tsx">
+      <Link href={{ pathname: 'animalDetail', query: {  commonName } }}>
             <img src={imageUrl} alt={commonName} className="w-full rounded-lg" />
         </Link>
       </div>
       
       {/* Right column for the text data */}
       <div className="w-1/2 p-4">
-        <Link href="../app/animal-detail.tsx">
+      <Link href={{ pathname: 'animalDetail', query: {  commonName } }}>
             
             <h2 className="text-xl font-semibold mb-2 text-center">{commonName}</h2>
             <p className="text-center">Scientific Name: {scientificName}</p>

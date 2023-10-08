@@ -55,13 +55,14 @@ export default function Home() {
     );
     return filtered;
   };
+  /* Search Bar Search Filter System*/
+  
 
-   // Access the features array from the imported JSON data
-   const { features } = speciesData;
-
+  // Access the features array from the imported JSON data
+  let { features } = speciesData;
   const [selectedStatusFilter, setSelectedStatusFilter] = useState();
   const [selectedLocationFilter, setSelectedLocationFilter] = useState();
-
+  const [featuresD, setfeatures] = useState(features);
   // Function to handle status filter selection
   const handleStatusFilterChange = (event: any) => {
     setSelectedStatusFilter(event.target.value);
@@ -72,10 +73,42 @@ export default function Home() {
     setSelectedLocationFilter(event.target.value);
   };
 
+  const handleSearchButtonClick = () => { 
+    var displayFish = [];
+    var nameFish = [""];
+    for (var feature of speciesData.features) {
+      // Assuming you want to check if the Common_Name_EN includes the KeySearch
+      if(!nameFish.includes(feature.attributes.Common_Name_EN)){
+        nameFish.push(feature.attributes.Common_Name_EN);
+        if (feature.attributes.Common_Name_EN.includes(inputValue)) {
+          displayFish.push(feature);
+          continue;
+        }
+        if (feature.attributes.Waterbody.includes(inputValue)) {
+          displayFish.push(feature);
+          continue;
+        }
+        if (feature.attributes.Lead_Region.includes(inputValue)) {
+          displayFish.push(feature);
+          continue;
+        }
+        if(feature.attributes.Population_EN != null){
+          if (feature.attributes.Population_EN.includes(inputValue)) {
+            displayFish.push(feature);
+            continue;
+          }
+        }
+      }
+    }
+   //[ features ] = displayFish;
+   console.log(displayFish);
+   setfeatures(displayFish);
+  };
 
+  
 
   // Function to filter animal cards based on selected filters
-  const filteredAnimalCards = features.filter((feature) => {
+  const filteredAnimalCards = featuresD.filter((feature) => {
     const statusFilterMatch =
       !selectedStatusFilter || feature.attributes.SARA_Status === selectedStatusFilter;
 
@@ -106,7 +139,10 @@ export default function Home() {
             onChange={handleInputChange}
             onKeyUp={handleInputChange}
           />
-          <button className="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+          <button 
+            className="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+            onClick={handleSearchButtonClick}
+          >
             Search
           </button>
         </div>
@@ -178,16 +214,16 @@ export default function Home() {
 
       {/* Animal Cards */}
     <div className="grid grid-cols-1 gap-4">
-      {filteredAnimalCards.map((feature, index) => (
+      {filteredAnimalCards.map((featureD, index) => (
         <AnimalCard
           key={index}
-          commonName={feature.attributes.Common_Name_EN}
-          scientificName={feature.attributes.Scientific_Name}
-          waterBody={feature.attributes.Waterbody}
-          ecoType={feature.attributes.Eco_Type}
-          status={feature.attributes.SARA_Status}
-          leadRegion={feature.attributes.Lead_Region}
-          imageUrl={feature.attributes.Image}
+          commonName={featureD.attributes.Common_Name_EN}
+          scientificName={featureD.attributes.Scientific_Name}
+          waterBody={featureD.attributes.Waterbody}
+          ecoType={featureD.attributes.Eco_Type}
+          status={featureD.attributes.SARA_Status}
+          leadRegion={featureD.attributes.Lead_Region}
+          imageUrl={featureD.attributes.Image}
           
         />
       ))}

@@ -9,7 +9,8 @@
      "SARA_Status": "SARA Status",
      "Species_Link": "Species Link",
      "Lead_Region": "Lead Region",
-     "Support_Region": "Support Region"
+     "Support_Region": "Support Region",
+     "Image": "Image"
     },
     "fields": [
      {
@@ -65,8 +66,14 @@
       "type": "esriFieldTypeString",
       "alias": "Support Region",
       "length": 255
-     }
+     },
    
+   {
+     "name": "Image",
+     "type": "esriFieldTypeString",
+     "alias": "Image_Link",
+     "length": 255
+   }
     ],
     "features": [
      {
@@ -79,11 +86,10 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg"
       }
      },
-     
-     
      
      {
       "attributes": {
@@ -95,7 +101,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp116p1.jpg"
       }
      },
     
@@ -111,7 +118,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp593p1.jpg"
       }
      },
     
@@ -127,7 +135,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/548-224",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp548p1.jpg"
       }
      },
      {
@@ -140,7 +149,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/112-19",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp112p1.jpg"
       }
      },
     
@@ -154,7 +164,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg" 
       }
      },
      {
@@ -167,7 +178,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg"
       }
      },
      {
@@ -180,7 +192,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg"
       }
      },
      {
@@ -193,7 +206,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/317-18",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp317p1.jpg"
       }
      },
      {
@@ -202,24 +216,12 @@
        "Population_EN": null,
        "Scientific_Name": "Coregonus huntsmani",
        "Eco_Type": "Freshwater",
-       "Waterbody": "Hebb Lake (Lac)",
+       "Waterbody": "Hebb Lake (Lac), Milipsigate Lake (Lac),Minamkeak Lake (Lac)",
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
        "Lead_Region": "Maritimes",
-       "Support_Region": null
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Atlantic Whitefish",
-       "Population_EN": null,
-       "Scientific_Name": "Coregonus huntsmani",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Milipsigate Lake (Lac),Minamkeak Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
-       "Lead_Region": "Maritimes",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg"
       }
      },
    
@@ -233,7 +235,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
        "Lead_Region": "Maritimes",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg"
       }
      },
      {
@@ -246,7 +249,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/780-298",
        "Lead_Region": "Maritimes",
-       "Support_Region": "Quebec, Gulf, Newfoundland and Labrador"
+       "Support_Region": "Quebec, Gulf, Newfoundland and Labrador",
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp780p1.jpg"
       }
      },
    
@@ -256,39 +260,15 @@
        "Population_EN": "Scotian Shelf",
        "Scientific_Name": "Hyperoodon ampullatus",
        "Eco_Type": "Marine",
-       "Waterbody": "Haldimand Canyon (Canyon)",
+       "Waterbody": "Haldimand Canyon (Canyon), Shortland Canyon (Canyon), The Gully/Le Goulet",
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
        "Lead_Region": "Maritimes",
-       "Support_Region": "Newfoundland and Labrador"
+       "Support_Region": "Newfoundland and Labrador",
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp162p1.jpg"
       }
      },
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Bottlenose Whale",
-       "Population_EN": "Scotian Shelf",
-       "Scientific_Name": "Hyperoodon ampullatus",
-       "Eco_Type": "Marine",
-       "Waterbody": "Shortland Canyon (Canyon)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
-       "Lead_Region": "Maritimes",
-       "Support_Region": "Newfoundland and Labrador"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Bottlenose Whale",
-       "Population_EN": "Scotian Shelf",
-       "Scientific_Name": "Hyperoodon ampullatus",
-       "Eco_Type": "Marine",
-       "Waterbody": "The Gully/Le Goulet",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
-       "Lead_Region": "Maritimes",
-       "Support_Region": "Newfoundland and Labrador"
-      }
-     },
+   
      {
       "attributes": {
        "Common_Name_EN": "Cultus Pygmy Sculpin",
@@ -299,7 +279,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/300-213",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp300p1.jpg"
       }
      },
      {
@@ -312,7 +293,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/544-222",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp544p1.jpg"
       }
      },
      {
@@ -325,7 +307,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/554-227",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://www.hlasek.com/foto/gasterosteus_aculeatus_hd1792.jpg"
       }
      },
      {
@@ -338,7 +321,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/600-242",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife.ca.gov/portals/0/Images/InlandFisheries/Projects/SanFelipe/FIGURE1.jpg"
       }
      },
      {
@@ -351,7 +335,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/604-245",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://portal.ct.gov/-/media/DEEP/fishing/freshwater/freshwater_fishes/Sticklebacks/80aThreespineStickleback8cmAcompressed.jpg?sc_lang=en&hash=D71B8C9CEFCE2B5D0DBC6CDDC3E6DADE"
       }
      },
      {
@@ -360,60 +345,15 @@
        "Population_EN": "Upper Columbia River",
        "Scientific_Name": "Acipenser transmontanus",
        "Eco_Type": "Freshwater",
-       "Waterbody": "Columbia River/Fleuve Columbia,Lower Kootenay River (Rivière),Upper Arrow Lake (Lac),Fraser Lake (Lac),Nautley River (Rivière),Nechako River (Rivière)",
+       "Waterbody": "Bowron River (Rivière),Fraser River/Fleuve Fraser,Nechako River (Rivière), Kootenay Lake (Lac), Stuart Lake (Lac),Stuart River (Rivière),Trembleur Lake (Lac), Columbia River/Fleuve Columbia,Lower Kootenay River (Rivière),Upper Arrow Lake (Lac),Fraser Lake (Lac),Nautley River (Rivière),Nechako River (Rivière)",
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp123p1.jpg"
       }
      },
    
-    
-   
-    
-     {
-      "attributes": {
-       "Common_Name_EN": "White Sturgeon",
-       "Population_EN": "Nechako River",
-       "Scientific_Name": "Acipenser transmontanus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Stuart Lake (Lac),Stuart River (Rivière),Trembleur Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-       "Lead_Region": "Pacific",
-       "Support_Region": null
-      }
-     },
-    
-    
-     {
-      "attributes": {
-       "Common_Name_EN": "White Sturgeon",
-       "Population_EN": "Upper Fraser River",
-       "Scientific_Name": "Acipenser transmontanus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Bowron River (Rivière),Fraser River/Fleuve Fraser,Nechako River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-       "Lead_Region": "Pacific",
-       "Support_Region": null
-      }
-     },
-    
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "White Sturgeon",
-       "Population_EN": "Kootenay River",
-       "Scientific_Name": "Acipenser transmontanus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Kootenay Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-       "Lead_Region": "Pacific",
-       "Support_Region": null
-      }
-     },
      {
       "attributes": {
        "Common_Name_EN": "Copper Redhorse",
@@ -424,10 +364,11 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
        "Lead_Region": "Quebec",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp075p1.jpg"
       }
      },
-    
+   
     
      {
       "attributes": {
@@ -439,7 +380,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1076-734",
        "Lead_Region": "Quebec",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/6228288/large.jpg"
       }
      },
    
@@ -453,7 +395,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/119-406",
        "Lead_Region": "Quebec",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp119p1.jpg"
       }
      },
      {
@@ -466,7 +409,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/102-111",
        "Lead_Region": "Quebec",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp102p1.jpg"
       }
      },
      {
@@ -479,7 +423,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/159-427",
        "Lead_Region": "Quebec",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp159p1.jpg"
       }
      },
     
@@ -494,16 +439,11 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
        "Lead_Region": "Maritimes",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp672p1.jpg"
       }
      },
    
-   
-    
-    
-     
-   
-     
      {
       "attributes": {
        "Common_Name_EN": "Fawnsfoot",
@@ -514,7 +454,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg"
       }
      },
      {
@@ -527,7 +468,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/89450/large.jpg"
       }
      },
      {
@@ -540,7 +482,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/952-671",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://www.aquariumofpacific.org/images/olc/AlaskaStreamMale_f.jpg"
       }
      },
      {
@@ -553,7 +496,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/953-672",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://nas.er.usgs.gov/XIMAGESERVERX/2019/20190506121725.jpg"
       }
      },
      {
@@ -566,75 +510,40 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
-      }
-     },
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp115p1.jpg"
+     }
+   },
      
-     
-    
-   
-   
-    
-   
-    
-     
-   
-    
      {
       "attributes": {
        "Common_Name_EN": "Killer Whale",
        "Population_EN": "Northeast Pacific Northern Resident",
        "Scientific_Name": "Orcinus orca",
        "Eco_Type": "Marine",
-       "Waterbody": "Pacific Ocean/Océan Pacifique",
+       "Waterbody": "Pacific Ocean/Océan Pacifique, Pacific Ocean/Océan Pacifique",
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/698-8",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp698p1.jpg"
       }
      },
-     {
-      "attributes": {
-       "Common_Name_EN": "Killer Whale",
-       "Population_EN": "Northeast Pacific Southern Resident",
-       "Scientific_Name": "Orcinus orca",
-       "Eco_Type": "Marine",
-       "Waterbody": "Pacific Ocean/Océan Pacifique",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/699-5",
-       "Lead_Region": "Pacific",
-       "Support_Region": null
-      }
-     },
+   
      {
       "attributes": {
        "Common_Name_EN": "Channel Darter",
        "Population_EN": "Lake Erie",
        "Scientific_Name": "Percina copelandi",
        "Eco_Type": "Freshwater",
-       "Waterbody": "Point Pelee (Pointe)",
+       "Waterbody": "Point Pelee (Pointe), Black River (Rivière),Moira River (Rivière),Salmon River (Rivière),Skootamatta River (Rivière),Trent River (Rivière)",
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1344-977",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://www.thelandbetween.ca/wp-content/uploads/bb-plugin/cache/Channel-Darter-Bio-landscape-552c8d62b7bf0fcd34172fd80499776b-z2kr6vf8tpql.jpeg"
       }
      },
-     {
-      "attributes": {
-       "Common_Name_EN": "Channel Darter",
-       "Population_EN": "Lake Ontario",
-       "Scientific_Name": "Percina copelandi",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Black River (Rivière),Moira River (Rivière),Salmon River (Rivière),Skootamatta River (Rivière),Trent River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1345-976",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null
-      }
-     },
-     
-    
-    
     
      {
       "attributes": {
@@ -642,34 +551,15 @@
        "Population_EN": null,
        "Scientific_Name": "Notropis anogenus",
        "Eco_Type": "Freshwater",
-       "Waterbody": "Big Creek (Crique),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
+       "Waterbody": "East Lake (Lac),Mouth Lake (Lac),Old Ausable Channel (Chenal), Big Creek (Crique),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
       }
      },
-    
-     {
-      "attributes": {
-       "Common_Name_EN": "Pugnose Shiner",
-       "Population_EN": null,
-       "Scientific_Name": "Notropis anogenus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "East Lake (Lac),Mouth Lake (Lac),Old Ausable Channel (Chenal)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280,St. Clair National Wildlife Area/Réserve nationale de faune de Sainte-Claire,Teeswater River (Rivière),Waupoos Bay (Baie),Wellers Bay (Baie),West Lake (Lac)",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null
-      }
-     },
-    
    
-     
-     
-    
-     
-    
      {
       "attributes": {
        "Common_Name_EN": "Spotted Gar",
@@ -680,20 +570,11 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg"
       }
      },
      
-   
-    
-     
-    
-    
-     
-     
-    
-   
-   
      {
       "attributes": {
        "Common_Name_EN": "Nooksack Dace",
@@ -704,12 +585,11 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp066p1.jpg"
       }
      },
      
-    
-   
      {
       "attributes": {
        "Common_Name_EN": "Threehorn Wartyback",
@@ -720,11 +600,11 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://people.se.cmich.edu/zanat1d/obliquaria-cranecreek.jpg"
       }
      },
      
-    
      {
       "attributes": {
        "Common_Name_EN": "Fawnsfoot",
@@ -735,11 +615,11 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698,Thames River/Rivière Thames",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg"
       }
      },
-     
-     
+   
      {
       "attributes": {
        "Common_Name_EN": "Pugnose Shiner",
@@ -750,7 +630,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
       }
      },
      {
@@ -763,15 +644,10 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg"
       }
      },
-     
-   
-    
-   
-    
-    
    
      {
       "attributes": {
@@ -783,14 +659,12 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp107p1.jpg"
       }
      },
    
-    
-    
-    
-     
+   
      {
       "attributes": {
        "Common_Name_EN": "Eastern Sand Darter",
@@ -801,13 +675,11 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg"
       }
      },
-    
-    
-    
-    
+   
      {
       "attributes": {
        "Common_Name_EN": "Lake Chubsucker",
@@ -818,9 +690,11 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp101p1.jpg"
       }
      },
+   
      {
       "attributes": {
        "Common_Name_EN": "Northern Madtom",
@@ -831,7 +705,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg"
       }
      },
      {
@@ -844,7 +719,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp774p1.jpg"
       }
      },
      {
@@ -857,7 +733,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/582-234",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp582p1.jpg"
       }
      },
      {
@@ -870,7 +747,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/581-233",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp581p1.jpg"
       }
      },
      {
@@ -883,7 +761,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/768-305",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp768p1.jpg"
       }
      },
      {
@@ -896,7 +775,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp817p1.jpg"
       }
      },
      {
@@ -909,7 +789,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/671-263",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp671p1.jpg"
       }
      },
      {
@@ -922,7 +803,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/670-262",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp670p1.jpg"
       }
      },
      {
@@ -935,7 +817,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg"
       }
      },
      {
@@ -948,7 +831,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
        "Lead_Region": "Maritimes",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg"
       }
      },
      {
@@ -961,7 +845,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
        "Lead_Region": "Maritimes",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg"
       }
      },
      {
@@ -974,7 +859,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/667-260",
        "Lead_Region": "Newfoundland and Labrador",
-       "Support_Region": "Quebec"
+       "Support_Region": "Quebec",
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp667p1.jpg"
       }
      },
      {
@@ -987,7 +873,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/669-261",
        "Lead_Region": "Newfoundland and Labrador",
-       "Support_Region": "Quebec"
+       "Support_Region": "Quebec",
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp669p1.jpg"
       }
      },
      {
@@ -1000,7 +887,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
        "Lead_Region": "Pacific",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp067p1.jpg"
       }
      },
      {
@@ -1013,7 +901,8 @@
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
       }
      },
      {
@@ -1026,7 +915,8 @@
        "SARA_Status": "Endangered",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
        "Lead_Region": "Central and Arctic",
-       "Support_Region": null
+       "Support_Region": null,
+       "Image": "https://a-z-animals.com/media/2023/02/Rainbow-Trout.jpg"
       }
      }
     

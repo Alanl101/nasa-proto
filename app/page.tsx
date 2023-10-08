@@ -1,11 +1,59 @@
 'use client'
-
-
 import speciesData from '../public/Species.json';
+import speciesData2 from '../public/Species2.json';
 import AnimalCard from '../components/AnimalCard.js'; 
 import React, { useState } from 'react';
 
+
 export default function Home() {
+  /*Search Bar Filter*/
+  const [inputValue, setInputValue] = useState('');
+  const [filteredResults, setFilteredResults] = useState<string[]>([]);
+
+  let SpeciesLocation = [""];
+  
+  for (var feature of speciesData2.features) {
+    if(feature.attributes.Population_EN != null)
+      if(!SpeciesLocation.includes(feature.attributes.Population_EN)){
+        SpeciesLocation.push(feature.attributes.Population_EN);
+      }
+    if(!SpeciesLocation.includes(feature.attributes.Waterbody)){
+
+      SpeciesLocation.push(feature.attributes.Waterbody);
+    }
+    if(!SpeciesLocation.includes(feature.attributes.Lead_Region)){
+      SpeciesLocation.push(feature.attributes.Lead_Region);
+    }
+    if(!SpeciesLocation.includes(feature.attributes.Common_Name_EN)){
+      SpeciesLocation.push(feature.attributes.Common_Name_EN);
+    }
+  }
+
+  const handleInputChange = (event: any) => {
+    const value: string = event.target.value;
+
+    setInputValue(value);
+
+    // Perform filtering logic here based on your requirements
+    const filtered = filterResults(value).slice(0, 5);
+
+    // Update the filtered results state
+    setFilteredResults(filtered);
+  };
+
+  const handleResultClick = (result: string) => {
+    // Update the inputValue when a result is clicked
+    setInputValue(result);
+  };
+
+  const filterResults = (value: string) => {
+    // Replace this with your actual filtering logic
+    const keywords = value.toLowerCase();
+    const filtered = SpeciesLocation.filter((item) =>
+      item.toLowerCase().includes(keywords)
+    );
+    return filtered;
+  };
 
    // Access the features array from the imported JSON data
    const { features } = speciesData;
@@ -34,6 +82,7 @@ export default function Home() {
     const locationFilterMatch =
       !selectedLocationFilter || feature.attributes.Lead_Region === selectedLocationFilter;
 
+    // Return true if both filters match, otherwise, return false
     return statusFilterMatch || locationFilterMatch;
   });
 
@@ -52,11 +101,27 @@ export default function Home() {
             id="input-box"
             placeholder="Find Endangered Species Near Me"
             className="w-full p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
+            value={inputValue}
+            onChange={handleInputChange}
+            onKeyUp={handleInputChange}
           />
           <button className="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
             Search
           </button>
         </div>
+        {inputValue !== '' && (
+        <ul className="result-box">
+          {filteredResults.map((result, index) => (
+           <li
+           key={index}
+           className="result-item"
+           onClick={() => handleResultClick(result)}
+          >
+          {result}
+            </li>
+          ))}
+        </ul>
+      )}
       </div>
 
      
@@ -121,6 +186,8 @@ export default function Home() {
           ecoType={feature.attributes.Eco_Type}
           status={feature.attributes.SARA_Status}
           leadRegion={feature.attributes.Lead_Region}
+          imageUrl={feature.attributes.Image}
+          
         />
       ))}
     </div>

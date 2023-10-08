@@ -5,7 +5,6 @@ import speciesData2 from '../public/Species2.json';
 import AnimalCard from '../components/AnimalCard.js'; 
 import React, { useState } from 'react';
 
-
 export default function Home() {
   /*Search Bar Filter*/
   const [inputValue, setInputValue] = useState('');

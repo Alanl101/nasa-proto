@@ -58,8 +58,8 @@ export default function Home() {
   // Access the features array from the imported JSON data
   const { features } = speciesData;
 
-  const [selectedStatusFilter, setSelectedStatusFilter] = useState();
-  const [selectedLocationFilter, setSelectedLocationFilter] = useState();
+  const [selectedStatusFilter, setSelectedStatusFilter] = useState<string | undefined>(undefined);
+  const [selectedLocationFilter, setSelectedLocationFilter] = useState<string | undefined>(undefined);
 
   // Function to handle status filter selection
   const handleStatusFilterChange = (event: any) => {
@@ -76,15 +76,27 @@ export default function Home() {
   // Function to filter animal cards based on selected filters
   const filteredAnimalCards = features.filter((feature) => {
     const statusFilterMatch =
-      !selectedStatusFilter || feature.attributes.SARA_Status === selectedStatusFilter;
+      !selectedStatusFilter ||
+      feature.attributes.SARA_Status.toLowerCase() === selectedStatusFilter.toLowerCase();
 
-    
     const locationFilterMatch =
-      !selectedLocationFilter || feature.attributes.Lead_Region === selectedLocationFilter;
+      !selectedLocationFilter || feature.attributes.Lead_Region.toLowerCase() === selectedLocationFilter.toLowerCase();
 
-    // Return true if both filters match, otherwise, return false
-    return statusFilterMatch || locationFilterMatch;
+    const inputValueLowerCase = inputValue.toLowerCase();
+    
+    const commonNameFilterMatch = feature.attributes.Common_Name_EN.toLowerCase().includes(inputValueLowerCase);
+    const ecoTypeFilterMatch = feature.attributes.Eco_Type.toLowerCase().includes(inputValueLowerCase);
+    const waterBodyFilterMatch = feature.attributes.Waterbody.toLowerCase().includes(inputValueLowerCase);
+
+    // Return true if at least one of the conditions (Common Name, Eco Type, Water Body) matches
+    return (
+      statusFilterMatch &&
+      locationFilterMatch &&
+      (commonNameFilterMatch || ecoTypeFilterMatch || waterBodyFilterMatch)
+    );
   });
+
+  
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -134,6 +146,7 @@ export default function Home() {
           onChange={handleStatusFilterChange}
           value={selectedStatusFilter}
         >
+          <option value=""></option>
           <option value="Endangered">Endangered</option>
           <option value="Threatened">Threatened</option>
           <option value="Special Concern">Special Concern</option>
@@ -147,14 +160,14 @@ export default function Home() {
 
       {/* Filters */}
       <div className="p-4 mx-auto w-1/2">
-        <label htmlFor="locationfilter">Filter by Location:</label>
+        <label htmlFor="locationfilter">Filter by Lead Region:</label>
         <select
           id="locationfilter"
           className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
           onChange={handleLocationFilterChange}
           value={selectedLocationFilter}
         >
-          <option value="Range">Range</option>
+          <option value=""></option>
           <option value="Ontario">Ontario</option>
           <option value="Atlantic Ocean">Atlantic Ocean</option>
           <option value="British Columbia">British Columbia</option>
@@ -164,7 +177,7 @@ export default function Home() {
           <option value="Alberta">Alberta</option>
           <option value="Manitoba">Manitoba</option>
           <option value="Yukon">Yukon</option>
-          <option value="Pacific Ocean">Pacific Ocean</option>
+          <option value="Pacific">Pacific</option>
           <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
           <option value="Arctic Ocean">Arctic Ocean</option>
           <option value="Prince Edward Island">Prince Edward Island</option>

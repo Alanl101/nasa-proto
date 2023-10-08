@@ -1,5 +1,6 @@
 'use client'
 
+
 import speciesData from '../public/Species.json';
 import AnimalCard from '../components/AnimalCard.js'; 
 import React, { useState } from 'react';
@@ -8,20 +9,6 @@ export default function Home() {
 
    // Access the features array from the imported JSON data
    const { features } = speciesData;
-
-   // For demonstration, let's access data from the first feature
-   const firstFeature = features[0];
- 
-  //animal data example
-  const animalData = {
-    imageUrl: 'https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg',
-    commonName: 'Common Name',
-    scientificName: 'Scientific Name',
-    waterBody: 'Water Body',
-    ecoType: 'Ecotype',
-    status: 'Endangered',
-    leadRegion: 'Pacific',
-  };
 
   const [selectedStatusFilter, setSelectedStatusFilter] = useState();
   const [selectedLocationFilter, setSelectedLocationFilter] = useState();
@@ -35,6 +22,20 @@ export default function Home() {
   const handleLocationFilterChange = (event: any) => {
     setSelectedLocationFilter(event.target.value);
   };
+
+
+
+  // Function to filter animal cards based on selected filters
+  const filteredAnimalCards = features.filter((feature) => {
+    const statusFilterMatch =
+      !selectedStatusFilter || feature.attributes.SARA_Status === selectedStatusFilter;
+
+    
+    const locationFilterMatch =
+      !selectedLocationFilter || feature.attributes.Lead_Region === selectedLocationFilter;
+
+    return statusFilterMatch || locationFilterMatch;
+  });
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -61,9 +62,9 @@ export default function Home() {
      
       {/* Filters */}
       <div className="p-4 mx-auto w-1/2">
-        <label htmlFor="filter">Filter by Status:</label>
+        <label htmlFor="statusfilter">Filter by Status:</label>
         <select
-          id="filter"
+          id="statusfilter"
           className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
           onChange={handleStatusFilterChange}
           value={selectedStatusFilter}
@@ -81,9 +82,9 @@ export default function Home() {
 
       {/* Filters */}
       <div className="p-4 mx-auto w-1/2">
-        <label htmlFor="filter">Filter by Status:</label>
+        <label htmlFor="locationfilter">Filter by Location:</label>
         <select
-          id="filter"
+          id="locationfilter"
           className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
           onChange={handleLocationFilterChange}
           value={selectedLocationFilter}
@@ -105,12 +106,13 @@ export default function Home() {
           <option value="Nova Scotia">Nova Scotia</option>
           <option value="Nunavut">Nunavut</option>
           <option value="New Brunswick">New Brunswick</option>
+          <option value="Central and Artic">Central and Artic</option>
         </select>
       </div>
 
       {/* Animal Cards */}
     <div className="grid grid-cols-1 gap-4">
-      {features.map((feature, index) => (
+      {filteredAnimalCards.map((feature, index) => (
         <AnimalCard
           key={index}
           commonName={feature.attributes.Common_Name_EN}

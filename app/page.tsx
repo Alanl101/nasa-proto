@@ -5,7 +5,6 @@ import speciesData2 from '../public/Species2.json';
 import AnimalCard from '../components/AnimalCard.js'; 
 import React, { useState } from 'react';
 
-
 export default function Home() {
   /*Search Bar Filter*/
   const [inputValue, setInputValue] = useState('');
@@ -55,6 +54,7 @@ export default function Home() {
     );
     return filtered;
   };
+
 
    // Access the features array from the imported JSON data
    const { features } = speciesData;
@@ -188,7 +188,6 @@ export default function Home() {
           status={feature.attributes.SARA_Status}
           leadRegion={feature.attributes.Lead_Region}
           imageUrl={feature.attributes.Image}
-          
         />
       ))}
     </div>

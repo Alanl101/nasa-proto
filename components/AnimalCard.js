@@ -39,3 +39,4 @@ function AnimalCard(props) {
 }
 
 export default AnimalCard;
+

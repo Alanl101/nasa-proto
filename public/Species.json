@@ -82,7 +82,7 @@
        "Population_EN": "Eastslope",
        "Scientific_Name": "Cottus sp.",
        "Eco_Type": "Freshwater",
-       "Waterbody": "Milk River (Rivière),St. Mary River (Rivière)",
+       "Waterbody": "Milk River (Rivière), St. Mary River (Rivière), Lee Creek (Crique)",
        "SARA_Status": "Threatened",
        "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
        "Lead_Region": "Central and Arctic",
@@ -805,20 +805,6 @@
        "Lead_Region": "Central and Arctic",
        "Support_Region": null,
        "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp670p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Rocky Mountain Sculpin",
-       "Population_EN": "Eastslope",
-       "Scientific_Name": "Cottus sp.",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Lee Creek (Crique)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg"
       }
      },
      {

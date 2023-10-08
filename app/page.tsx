@@ -113,7 +113,6 @@ export default function Home() {
       {features.map((feature, index) => (
         <AnimalCard
           key={index}
-          imageUrl={feature.attributes.imageUrl}
           commonName={feature.attributes.Common_Name_EN}
           scientificName={feature.attributes.Scientific_Name}
           waterBody={feature.attributes.Waterbody}

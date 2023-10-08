@@ -55,8 +55,8 @@ export default function Home() {
     return filtered;
   };
 
-   // Access the features array from the imported JSON data
-   const { features } = speciesData;
+  // Access the features array from the imported JSON data
+  const { features } = speciesData;
 
   const [selectedStatusFilter, setSelectedStatusFilter] = useState();
   const [selectedLocationFilter, setSelectedLocationFilter] = useState();

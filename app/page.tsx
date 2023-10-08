@@ -1,28 +1,25 @@
+'use client'
+
 import speciesData from '../public/Species.json';
+import speciesData2 from '../public/Species2.json';
 import AnimalCard from '../components/AnimalCard.js'; 
-//import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+
 
 export default function Home() {
-  
-  const animalData = {
-    imageUrl: 'https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg',
-    commonName: 'Common Name',
-    scientificName: 'Scientific Name',
-    waterBody: 'Water Body',
-    ecoType: 'Ecotype',
-    status: 'Endangered',
-    leadRegion: 'Pacific',
-  };
+  /*Search Bar Filter*/
+  const [inputValue, setInputValue] = useState('');
+  const [filteredResults, setFilteredResults] = useState<string[]>([]);
 
-  //console.log(speciesData.features[0]);
-  let SpeciesLocation = ["", null];
+  let SpeciesLocation = [""];
   
-  for (var feature of speciesData.features) {
-    // console.log(feature.attributes.Common_Name_EN);
-    if(!SpeciesLocation.includes(feature.attributes.Population_EN)){
-      SpeciesLocation.push(feature.attributes.Population_EN);
-    }
+  for (var feature of speciesData2.features) {
+    if(feature.attributes.Population_EN != null)
+      if(!SpeciesLocation.includes(feature.attributes.Population_EN)){
+        SpeciesLocation.push(feature.attributes.Population_EN);
+      }
     if(!SpeciesLocation.includes(feature.attributes.Waterbody)){
+
       SpeciesLocation.push(feature.attributes.Waterbody);
     }
     if(!SpeciesLocation.includes(feature.attributes.Lead_Region)){
@@ -32,85 +29,69 @@ export default function Home() {
       SpeciesLocation.push(feature.attributes.Common_Name_EN);
     }
   }
-  
-  //console.log(SpeciesLocation);
-  var displayFish = [{}];
-  var nameFish = [""];
-  let KeySearch2 = "North"
-  for (var feature of speciesData.features) {
-    // Assuming you want to check if the Common_Name_EN includes the KeySearch
-    if(!nameFish.includes(feature.attributes.Common_Name_EN)){
-      nameFish.push(feature.attributes.Common_Name_EN);
-      if (feature.attributes.Common_Name_EN.includes(KeySearch2 )) {
-        displayFish.push(feature);
-        continue;
-      }
-      if (feature.attributes.Waterbody.includes(KeySearch2)) {
-        displayFish.push(feature);
-        continue;
-      }
-      if (feature.attributes.Lead_Region.includes(KeySearch2)) {
-        displayFish.push(feature);
-        continue;
-      }
-      if(feature.attributes.Population_EN != null){
-        if (feature.attributes.Population_EN.includes(KeySearch2)) {
-          displayFish.push(feature);
-          continue;
-        }
-      }
-    }
-  }
 
-  console.log(displayFish);
-  //Search Bar implementation Even Handler
-  // const [KeySearch, setKeySearch] = useState("");
-  // const  [Display, setDisplay] = useState(null);
-  // useEffect(() => {
-  // var displayFish = [{}];
-  // if (SpeciesLocation.includes(KeySearch)) {
-  //   console.log("Added Fixes");
-  //   for (var feature of speciesData.features) {
-  //     // Assuming you want to check if the Common_Name_EN includes the KeySearch
-  //     if (feature.attributes.Common_Name_EN.includes(KeySearch)&& !displayFish.includes(feature)) {
-  //       displayFish.push(feature);
-  //     }
-  //     if (feature.attributes.Waterbody.includes(KeySearch)&& !displayFish.includes(feature)) {
-  //       displayFish.push(feature);
-  //     }
-  //     if (feature.attributes.Lead_Region.includes(KeySearch)&& !displayFish.includes(feature)) {
-  //       displayFish.push(feature);
-  //     }
-  //     if(feature.attributes.Population_EN != null){
-  //       if (feature.attributes.Population_EN.includes(KeySearch)&& !displayFish.includes(feature)) {
-  //         displayFish.push(feature);
-  //       }
-  //     }
-  //   }
+  const handleInputChange = (event: any) => {
+    const value: string = event.target.value;
 
-  //   // for(var info in displayFish){
-  //   //   let animalDataCreation = {
-  //   //     imageUrl: 'https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg',
-  //   //     commonName: info.attributes.Common_Name_EN,
-  //   //     scientificName: 'Scientific Name',
-  //   //     waterBody: 'Water Body',
-  //   //     ecoType: 'Ecotype',
-  //   //     status: 'Endangered',
-  //   //     leadRegion: 'Pacific',
-  //   //   };
-  //   // }
+    setInputValue(value);
 
-  // } else {
-  //   console.log("Not found");
-  // }
-  // }, []);
-  
-  return (
+    // Perform filtering logic here based on your requirements
+    const filtered = filterResults(value).slice(0, 5);
+
+    // Update the filtered results state
+    setFilteredResults(filtered);
+  };
+
+  const handleResultClick = (result: string) => {
+    // Update the inputValue when a result is clicked
+    setInputValue(result);
+  };
+
+  const filterResults = (value: string) => {
+    // Replace this with your actual filtering logic
+    const keywords = value.toLowerCase();
+    const filtered = SpeciesLocation.filter((item) =>
+      item.toLowerCase().includes(keywords)
+    );
+    return filtered;
+  };
+
+   // Access the features array from the imported JSON data
+   const { features } = speciesData;
+
+  const [selectedStatusFilter, setSelectedStatusFilter] = useState();
+  const [selectedLocationFilter, setSelectedLocationFilter] = useState();
+
+  // Function to handle status filter selection
+  const handleStatusFilterChange = (event: any) => {
+    setSelectedStatusFilter(event.target.value);
+  };
+
+  // Function to handle location filter selection
+  const handleLocationFilterChange = (event: any) => {
+    setSelectedLocationFilter(event.target.value);
+  };
+
+
+
+  // Function to filter animal cards based on selected filters
+  const filteredAnimalCards = features.filter((feature) => {
+    const statusFilterMatch =
+      !selectedStatusFilter || feature.attributes.SARA_Status === selectedStatusFilter;
+
     
+    const locationFilterMatch =
+      !selectedLocationFilter || feature.attributes.Lead_Region === selectedLocationFilter;
+
+    // Return true if both filters match, otherwise, return false
+    return statusFilterMatch || locationFilterMatch;
+  });
+
+  return (
     <div className="min-h-screen flex flex-col">
       {/* Title with blue background */}
       <header className="bg-blue-600 py-4 text-white text-center">
-        <h1 className="text-2xl font-semibold">Title</h1>
+        <h1 className="text-2xl font-semibold">Operation Save Them Sea Critters</h1>
       </header>
       
       {/* Search bar */}
@@ -121,29 +102,99 @@ export default function Home() {
             id="input-box"
             placeholder="Find Endangered Species Near Me"
             className="w-full p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
+            value={inputValue}
+            onChange={handleInputChange}
+            onKeyUp={handleInputChange}
           />
           <button className="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
             Search
           </button>
         </div>
+        {inputValue !== '' && (
+        <ul className="result-box">
+          {filteredResults.map((result, index) => (
+           <li
+           key={index}
+           className="result-item"
+           onClick={() => handleResultClick(result)}
+          >
+          {result}
+            </li>
+          ))}
+        </ul>
+      )}
       </div>
 
-      {/* Display the image */}
-      <AnimalCard {...animalData} />
-
-
-       {/* First fun fact box */}
-      <div className="bg-white p-4 rounded-lg border border-black shadow-md mx-auto my-4 w-1/2">
-        <h2 className="text-xl font-semibold mb-2 text-center">Fun Fact 1</h2>
-        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     
+      {/* Filters */}
+      <div className="p-4 mx-auto w-1/2">
+        <label htmlFor="statusfilter">Filter by Status:</label>
+        <select
+          id="statusfilter"
+          className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
+          onChange={handleStatusFilterChange}
+          value={selectedStatusFilter}
+        >
+          <option value="Endangered">Endangered</option>
+          <option value="Threatened">Threatened</option>
+          <option value="Special Concern">Special Concern</option>
+          <option value="Data Deficient">Data Deficient</option>
+          <option value="Non-active">Non-active</option>
+          <option value="Not at Risk">Not at Risk</option>
+          <option value="Extirpated">Extirpated</option>
+          <option value="Extinct">Extinct</option>
+        </select>
       </div>
 
-      {/* Second fun fact box */}
-      <div className="bg-white p-4 rounded-lg border border-black shadow-md mx-auto my-4 w-1/2">
-        <h2 className="text-xl font-semibold mb-2 text-center">Fun Fact 2</h2>
-        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      {/* Filters */}
+      <div className="p-4 mx-auto w-1/2">
+        <label htmlFor="locationfilter">Filter by Location:</label>
+        <select
+          id="locationfilter"
+          className="ml-2 p-2 border rounded-lg border border-black focus:outline-none focus:border-blue-400"
+          onChange={handleLocationFilterChange}
+          value={selectedLocationFilter}
+        >
+          <option value="Range">Range</option>
+          <option value="Ontario">Ontario</option>
+          <option value="Atlantic Ocean">Atlantic Ocean</option>
+          <option value="British Columbia">British Columbia</option>
+          <option value="Northwest Territories">Northwest Territories</option>
+          <option value="Saskatchewan">Saskatchewan</option>
+          <option value="Quebec">Quebec</option>
+          <option value="Alberta">Alberta</option>
+          <option value="Manitoba">Manitoba</option>
+          <option value="Yukon">Yukon</option>
+          <option value="Pacific Ocean">Pacific Ocean</option>
+          <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+          <option value="Arctic Ocean">Arctic Ocean</option>
+          <option value="Prince Edward Island">Prince Edward Island</option>
+          <option value="Nova Scotia">Nova Scotia</option>
+          <option value="Nunavut">Nunavut</option>
+          <option value="New Brunswick">New Brunswick</option>
+          <option value="Central and Artic">Central and Artic</option>
+        </select>
       </div>
+
+      {/* Animal Cards */}
+    <div className="grid grid-cols-1 gap-4">
+      {filteredAnimalCards.map((feature, index) => (
+        <AnimalCard
+          key={index}
+          commonName={feature.attributes.Common_Name_EN}
+          scientificName={feature.attributes.Scientific_Name}
+          waterBody={feature.attributes.Waterbody}
+          ecoType={feature.attributes.Eco_Type}
+          status={feature.attributes.SARA_Status}
+          leadRegion={feature.attributes.Lead_Region}
+          imageUrl={feature.attributes.Image}
+          
+        />
+      ))}
+    </div>
+
+      
+
     </div>
   );
-  
 }

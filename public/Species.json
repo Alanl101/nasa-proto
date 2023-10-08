@@ -9,7 +9,8 @@
   "SARA_Status": "SARA Status",
   "Species_Link": "Species Link",
   "Lead_Region": "Lead Region",
-  "Support_Region": "Support Region"
+  "Support_Region": "Support Region",
+  "Image": "Image"
  },
  "fields": [
   {
@@ -65,8 +66,14 @@
    "type": "esriFieldTypeString",
    "alias": "Support Region",
    "length": 255
-  }
+  },
 
+{
+  "name": "Image",
+  "type": "esriFieldTypeString",
+  "alias": "Image_Link",
+  "length": 255
+}
  ],
  "features": [
   {
@@ -75,118 +82,49 @@
     "Population_EN": "Eastslope",
     "Scientific_Name": "Cottus sp.",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Milk River (Rivière)",
+    "Waterbody": "Milk River (Rivière),St. Mary River (Rivière)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg"
    }
   },
   
   {
    "attributes": {
-    "Common_Name_EN": "Rocky Mountain Sculpin",
-    "Population_EN": "Eastslope",
-    "Scientific_Name": "Cottus sp.",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "St. Mary River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
     "Common_Name_EN": "Speckled Dace",
     "Population_EN": null,
     "Scientific_Name": "Rhinichthys osculus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Granby River (Rivière)",
+    "Waterbody": "Granby River (Rivière),Kettle River (Rivière),West Kettle River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp116p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Speckled Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys osculus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Kettle River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Speckled Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys osculus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "West Kettle River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
+ 
+
+  
   {
    "attributes": {
     "Common_Name_EN": "Western Brook Lamprey",
     "Population_EN": "Morrison Creek",
     "Scientific_Name": "Lampetra richardsoni",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Arden Creek (Crique)",
+    "Waterbody": "Arden Creek (Crique),First Supply Creek (Crique),Morrison Creek (Crique),Morrison Creek Watershed Wetlands (Crique)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp593p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Western Brook Lamprey",
-    "Population_EN": "Morrison Creek",
-    "Scientific_Name": "Lampetra richardsoni",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "First Supply Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Western Brook Lamprey",
-    "Population_EN": "Morrison Creek",
-    "Scientific_Name": "Lampetra richardsoni",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Morrison Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Western Brook Lamprey",
-    "Population_EN": "Morrison Creek",
-    "Scientific_Name": "Lampetra richardsoni",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Morrison Creek Watershed Wetlands (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
+ 
+  
+
   {
    "attributes": {
     "Common_Name_EN": "Hotwater Physa",
@@ -197,7 +135,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/548-224",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp548p1.jpg"
    }
   },
   {
@@ -206,26 +145,15 @@
     "Population_EN": null,
     "Scientific_Name": "Notropis percobromus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Birch River (Rivière)",
+    "Waterbody": "Birch River (Rivière),Whitemouth River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/112-19",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp112p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Carmine Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis percobromus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Whitemouth River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/112-19",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+ 
   {
    "attributes": {
     "Common_Name_EN": "Eastern Sand Darter",
@@ -236,7 +164,8 @@
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg" 
    }
   },
   {
@@ -249,7 +178,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg"
    }
   },
   {
@@ -262,7 +192,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg"
    }
   },
   {
@@ -275,7 +206,8 @@
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/317-18",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp317p1.jpg"
    }
   },
   {
@@ -284,39 +216,15 @@
     "Population_EN": null,
     "Scientific_Name": "Coregonus huntsmani",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Hebb Lake (Lac)",
+    "Waterbody": "Hebb Lake (Lac), Milipsigate Lake (Lac),Minamkeak Lake (Lac)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
     "Lead_Region": "Maritimes",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Whitefish",
-    "Population_EN": null,
-    "Scientific_Name": "Coregonus huntsmani",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Milipsigate Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Whitefish",
-    "Population_EN": null,
-    "Scientific_Name": "Coregonus huntsmani",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Minamkeak Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Rainbow Smelt",
@@ -327,7 +235,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
     "Lead_Region": "Maritimes",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg"
    }
   },
   {
@@ -336,65 +245,30 @@
     "Population_EN": null,
     "Scientific_Name": "Eubalaena glacialis",
     "Eco_Type": "Marine",
-    "Waterbody": "Grand Manan Basin (Bassin)",
+    "Waterbody": "Grand Manan Basin (Bassin),Roseway Basin (Bassin)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/780-298",
     "Lead_Region": "Maritimes",
-    "Support_Region": "Quebec, Gulf, Newfoundland and Labrador"
+    "Support_Region": "Quebec, Gulf, Newfoundland and Labrador",
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp780p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "North Atlantic Right Whale",
-    "Population_EN": null,
-    "Scientific_Name": "Eubalaena glacialis",
-    "Eco_Type": "Marine",
-    "Waterbody": "Roseway Basin (Bassin)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/780-298",
-    "Lead_Region": "Maritimes",
-    "Support_Region": "Quebec, Gulf, Newfoundland and Labrador"
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Northern Bottlenose Whale",
     "Population_EN": "Scotian Shelf",
     "Scientific_Name": "Hyperoodon ampullatus",
     "Eco_Type": "Marine",
-    "Waterbody": "Haldimand Canyon (Canyon)",
+    "Waterbody": "Haldimand Canyon (Canyon), Shortland Canyon (Canyon), The Gully/Le Goulet",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
     "Lead_Region": "Maritimes",
-    "Support_Region": "Newfoundland and Labrador"
+    "Support_Region": "Newfoundland and Labrador",
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp162p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Northern Bottlenose Whale",
-    "Population_EN": "Scotian Shelf",
-    "Scientific_Name": "Hyperoodon ampullatus",
-    "Eco_Type": "Marine",
-    "Waterbody": "Shortland Canyon (Canyon)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
-    "Lead_Region": "Maritimes",
-    "Support_Region": "Newfoundland and Labrador"
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Northern Bottlenose Whale",
-    "Population_EN": "Scotian Shelf",
-    "Scientific_Name": "Hyperoodon ampullatus",
-    "Eco_Type": "Marine",
-    "Waterbody": "The Gully/Le Goulet",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
-    "Lead_Region": "Maritimes",
-    "Support_Region": "Newfoundland and Labrador"
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Cultus Pygmy Sculpin",
@@ -405,7 +279,8 @@
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/300-213",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp300p1.jpg"
    }
   },
   {
@@ -418,7 +293,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/544-222",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp544p1.jpg"
    }
   },
   {
@@ -431,7 +307,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/554-227",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://www.hlasek.com/foto/gasterosteus_aculeatus_hd1792.jpg"
    }
   },
   {
@@ -444,7 +321,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/600-242",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife.ca.gov/portals/0/Images/InlandFisheries/Projects/SanFelipe/FIGURE1.jpg"
    }
   },
   {
@@ -457,7 +335,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/604-245",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://portal.ct.gov/-/media/DEEP/fishing/freshwater/freshwater_fishes/Sticklebacks/80aThreespineStickleback8cmAcompressed.jpg?sc_lang=en&hash=D71B8C9CEFCE2B5D0DBC6CDDC3E6DADE"
    }
   },
   {
@@ -466,260 +345,46 @@
     "Population_EN": "Upper Columbia River",
     "Scientific_Name": "Acipenser transmontanus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Columbia River/Fleuve Columbia",
+    "Waterbody": "Bowron River (Rivière),Fraser River/Fleuve Fraser,Nechako River (Rivière), Kootenay Lake (Lac), Stuart Lake (Lac),Stuart River (Rivière),Trembleur Lake (Lac), Columbia River/Fleuve Columbia,Lower Kootenay River (Rivière),Upper Arrow Lake (Lac),Fraser Lake (Lac),Nautley River (Rivière),Nechako River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp123p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Upper Columbia River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Lower Kootenay River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Upper Columbia River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Upper Arrow Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Nechako River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Fraser Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Nechako River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Nautley River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Nechako River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Nechako River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Nechako River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Stuart Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Nechako River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Stuart River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Nechako River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Trembleur Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Upper Fraser River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bowron River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Upper Fraser River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Fraser River/Fleuve Fraser",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Upper Fraser River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Nechako River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "White Sturgeon",
-    "Population_EN": "Kootenay River",
-    "Scientific_Name": "Acipenser transmontanus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Kootenay Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Copper Redhorse",
     "Population_EN": null,
     "Scientific_Name": "Moxostoma hubbsi",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Barrage de Chambly (Dam)",
+    "Waterbody": "Barrage de Chambly (Dam),Rivière Richelieu (River),Barrage Saint-Ours (Dam),St. Lawrence River/Fleuve Saint-Laurent",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
     "Lead_Region": "Quebec",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp075p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Copper Redhorse",
-    "Population_EN": null,
-    "Scientific_Name": "Moxostoma hubbsi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Rivière Richelieu (River)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Copper Redhorse",
-    "Population_EN": null,
-    "Scientific_Name": "Moxostoma hubbsi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Barrage Saint-Ours (Dam)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Copper Redhorse",
-    "Population_EN": null,
-    "Scientific_Name": "Moxostoma hubbsi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
+
+ 
   {
    "attributes": {
     "Common_Name_EN": "Eastern Sand Darter",
     "Population_EN": "Quebec",
     "Scientific_Name": "Ammocrypta pellucida",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Rivière-aux-Saumons (River)",
+    "Waterbody": "Rivière-aux-Saumons (River),Rivière L'Assomption et Rivière Ouareau (River),Rivière Richelieu (River)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1076-734",
     "Lead_Region": "Quebec",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/6228288/large.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Eastern Sand Darter",
-    "Population_EN": "Quebec",
-    "Scientific_Name": "Ammocrypta pellucida",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Rivière L'Assomption et Rivière Ouareau (River)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1076-734",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Eastern Sand Darter",
-    "Population_EN": "Quebec",
-    "Scientific_Name": "Ammocrypta pellucida",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Rivière Richelieu (River)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1076-734",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Spring Cisco",
@@ -730,7 +395,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/119-406",
     "Lead_Region": "Quebec",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp119p1.jpg"
    }
   },
   {
@@ -743,7 +409,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/102-111",
     "Lead_Region": "Quebec",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp102p1.jpg"
    }
   },
   {
@@ -752,169 +419,31 @@
     "Population_EN": "Lacs des Loups Marins",
     "Scientific_Name": "Phoca vitulina mellonae",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Lac Bourdel (Lake)",
+    "Waterbody": "Lac Bourdel (Lake),Lacs des Loups Marins (Lakes),Petit lac des Loups Marins (Lake)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/159-427",
     "Lead_Region": "Quebec",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp159p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Harbour Seal",
-    "Population_EN": "Lacs des Loups Marins",
-    "Scientific_Name": "Phoca vitulina mellonae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Lacs des Loups Marins (Lakes)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/159-427",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Harbour Seal",
-    "Population_EN": "Lacs des Loups Marins",
-    "Scientific_Name": "Phoca vitulina mellonae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Petit lac des Loups Marins (Lake)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/159-427",
-    "Lead_Region": "Quebec",
-    "Support_Region": null
-   }
-  },
+ 
+  
   {
    "attributes": {
     "Common_Name_EN": "Atlantic Salmon",
     "Population_EN": "Inner Bay of Fundy",
     "Scientific_Name": "Salmo salar",
     "Eco_Type": "Anadromous",
-    "Waterbody": "Big Salmon River (Rivière)",
+    "Waterbody": "Big Salmon River (Rivière),Debert River (Rivière),Economy River (Rivière),Folly River (Rivière),Gaspereau River (Rivière),Great Village River (Rivière),Point Wolfe River (Rivière),Portapique River (Rivière),Stewiacke River (Rivière),Upper Salmon River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
     "Lead_Region": "Maritimes",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp672p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Debert River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Economy River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Folly River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Gaspereau River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Great Village River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Point Wolfe River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Portapique River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Stewiacke River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Atlantic Salmon",
-    "Population_EN": "Inner Bay of Fundy",
-    "Scientific_Name": "Salmo salar",
-    "Eco_Type": "Anadromous",
-    "Waterbody": "Upper Salmon River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Fawnsfoot",
@@ -925,7 +454,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg"
    }
   },
   {
@@ -938,7 +468,8 @@
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/89450/large.jpg"
    }
   },
   {
@@ -951,7 +482,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/952-671",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://www.aquariumofpacific.org/images/olc/AlaskaStreamMale_f.jpg"
    }
   },
   {
@@ -964,7 +496,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/953-672",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://nas.er.usgs.gov/XIMAGESERVERX/2019/20190506121725.jpg"
    }
   },
   {
@@ -973,897 +506,120 @@
     "Population_EN": null,
     "Scientific_Name": "Notropis photogenis",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Avon River (Rivière)",
+    "Waterbody": "Avon River (Rivière),Black Creek (Crique),Bronte Creek (Crique),Conestogo River (Rivière),Dingman Creek (Crique),Grand River (Rivière),Medway Creek (Crique),Middle Thames River (Rivière),Nith River (Rivière),North Thames River (Rivière),Oxbow Creek (Crique),Sixteen Mile Creek (Crique),Stoney Creek (Crique),Thames River/Rivière Thames,Trout Creek (Crique),Wye Creek (Crique),East Sixteen Mile Creek (Crique),South Thames River (Rivière),Fish Creek (Crique),Whirl Creek (Crique)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Black Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bronte Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Conestogo River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Dingman Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Grand River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Medway Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Middle Thames River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Nith River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "North Thames River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Oxbow Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Sixteen Mile Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Stoney Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Thames River/Rivière Thames",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Trout Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Wye Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "East Sixteen Mile Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "South Thames River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Fish Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Silver Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis photogenis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Whirl Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp115p1.jpg"
+  }
+},
+  
   {
    "attributes": {
     "Common_Name_EN": "Killer Whale",
     "Population_EN": "Northeast Pacific Northern Resident",
     "Scientific_Name": "Orcinus orca",
     "Eco_Type": "Marine",
-    "Waterbody": "Pacific Ocean/Océan Pacifique",
+    "Waterbody": "Pacific Ocean/Océan Pacifique, Pacific Ocean/Océan Pacifique",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/698-8",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp698p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Killer Whale",
-    "Population_EN": "Northeast Pacific Southern Resident",
-    "Scientific_Name": "Orcinus orca",
-    "Eco_Type": "Marine",
-    "Waterbody": "Pacific Ocean/Océan Pacifique",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/699-5",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Channel Darter",
     "Population_EN": "Lake Erie",
     "Scientific_Name": "Percina copelandi",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Point Pelee (Pointe)",
+    "Waterbody": "Point Pelee (Pointe), Black River (Rivière),Moira River (Rivière),Salmon River (Rivière),Skootamatta River (Rivière),Trent River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1344-977",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://www.thelandbetween.ca/wp-content/uploads/bb-plugin/cache/Channel-Darter-Bio-landscape-552c8d62b7bf0fcd34172fd80499776b-z2kr6vf8tpql.jpeg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Channel Darter",
-    "Population_EN": "Lake Ontario",
-    "Scientific_Name": "Percina copelandi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Black River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1345-976",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Channel Darter",
-    "Population_EN": "Lake Ontario",
-    "Scientific_Name": "Percina copelandi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Moira River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1345-976",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Channel Darter",
-    "Population_EN": "Lake Ontario",
-    "Scientific_Name": "Percina copelandi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Salmon River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1345-976",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Channel Darter",
-    "Population_EN": "Lake Ontario",
-    "Scientific_Name": "Percina copelandi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Skootamatta River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1345-976",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Channel Darter",
-    "Population_EN": "Lake Ontario",
-    "Scientific_Name": "Percina copelandi",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Trent River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1345-976",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+ 
   {
    "attributes": {
     "Common_Name_EN": "Pugnose Shiner",
     "Population_EN": null,
     "Scientific_Name": "Notropis anogenus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Big Creek (Crique)",
+    "Waterbody": "East Lake (Lac),Mouth Lake (Lac),Old Ausable Channel (Chenal), Big Creek (Crique),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "East Lake (Lac)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Mouth Lake (Lac)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Old Ausable Channel (Chenal)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "St. Clair National Wildlife Area/Réserve nationale de faune de Sainte-Claire",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Teeswater River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Waupoos Bay (Baie)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Wellers Bay (Baie)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "West Lake (Lac)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Spotted Gar",
     "Population_EN": null,
     "Scientific_Name": "Lepisosteus oculatus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "3rd Concession Drain (Canal artificiel)",
+    "Waterbody": "3rd Concession Drain (Canal artificiel),4th Concession Drain (Canal artificiel),Buchanan Drain (Canal artificiel),Burke Drain (Canal artificiel),Coleman Drain (Canal artificiel),Flat Creek (Crique),Georgie Creek (Crique),Indian Creek (Crique),John Clarke Drain (Canal artificiel),Mill Creek (Crique),Unnamed Drain (Canal artificiel),Willow Creek Drain (Canal artificiel),Rondeau Bay (Baie),Bluff Marsh (Marche),Inner Bay (Baie),Long Point (Pointe),Long Point (Pointe), Inner Bay (Baie),Sunk Marsh (Marche),Turkey Point Marsh (Marche),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "4th Concession Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Buchanan Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Burke Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Coleman Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Flat Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Georgie Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Indian Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "John Clarke Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Mill Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Unnamed Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Willow Creek Drain (Canal artificiel)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Rondeau Bay (Baie)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bluff Marsh (Marche)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Inner Bay (Baie)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Long Point (Pointe)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Long Point (Pointe), Inner Bay (Baie)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Sunk Marsh (Marche)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Turkey Point Marsh (Marche)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Gar",
-    "Population_EN": null,
-    "Scientific_Name": "Lepisosteus oculatus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+  
   {
    "attributes": {
     "Common_Name_EN": "Nooksack Dace",
     "Population_EN": null,
     "Scientific_Name": "Rhinichthys cataractae ssp",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Bertrand Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
+    "Waterbody": "Bertrand Creek (Crique), Fishtrap Creek (Crique),Pepin Creek (Crique) , Bertrand Creek (Crique),Brunette River (Rivière)- Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
     "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp066p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Nooksack Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys cataractae ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Fishtrap Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Nooksack Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys cataractae ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Pepin Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Nooksack Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys cataractae ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bertrand Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Nooksack Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys cataractae ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Brunette River (Rivière) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
+  
   {
    "attributes": {
     "Common_Name_EN": "Threehorn Wartyback",
     "Population_EN": null,
     "Scientific_Name": "Obliquaria reflexa",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Bear Creek (Crique)",
+    "Waterbody": "Bear Creek (Crique),Sydenham River (Rivière),Thames River/Rivière Thames",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://people.se.cmich.edu/zanat1d/obliquaria-cranecreek.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Threehorn Wartyback",
-    "Population_EN": null,
-    "Scientific_Name": "Obliquaria reflexa",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Sydenham River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Threehorn Wartyback",
-    "Population_EN": null,
-    "Scientific_Name": "Obliquaria reflexa",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Thames River/Rivière Thames",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+  
   {
    "attributes": {
     "Common_Name_EN": "Fawnsfoot",
     "Population_EN": null,
     "Scientific_Name": "Truncilla donaciformis",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Bear Creek (Crique)",
+    "Waterbody": "Bear Creek (Crique),Sydenham River (Rivière)",
     "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
+    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698,Thames River/Rivière Thames",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Fawnsfoot",
-    "Population_EN": null,
-    "Scientific_Name": "Truncilla donaciformis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Sydenham River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Fawnsfoot",
-    "Population_EN": null,
-    "Scientific_Name": "Truncilla donaciformis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Thames River/Rivière Thames",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Pugnose Shiner",
@@ -1874,7 +630,8 @@
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
    }
   },
   {
@@ -1883,351 +640,61 @@
     "Population_EN": null,
     "Scientific_Name": "Toxolasma parvum",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Belle River (Rivière)",
+    "Waterbody": "Belle River (Rivière),Ruscom River (Rivière),Welland River (Rivière),Cootes Paradise (Marche),Grand River (Rivière),Hamilton Harbour (Havre),Jordan Harbour (Havre),East Sydenham River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Ruscom River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Welland River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Cootes Paradise (Marche)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Grand River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Hamilton Harbour (Havre)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Jordan Harbour (Havre)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lilliput",
-    "Population_EN": null,
-    "Scientific_Name": "Toxolasma parvum",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "East Sydenham River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Pugnose Minnow",
     "Population_EN": null,
     "Scientific_Name": "Opsopoeodus emiliae",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Canard River/Rivière aux Canards",
+    "Waterbody": "Canard River/Rivière aux Canards,Grape Run (Passage),Little Bear Creek (Crique),Maxwell Creek (Crique),North Sydenham River (Rivière),Sydenham River (Rivière)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp107p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Minnow",
-    "Population_EN": null,
-    "Scientific_Name": "Opsopoeodus emiliae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Grape Run (Passage)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Minnow",
-    "Population_EN": null,
-    "Scientific_Name": "Opsopoeodus emiliae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Little Bear Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Minnow",
-    "Population_EN": null,
-    "Scientific_Name": "Opsopoeodus emiliae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Maxwell Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Minnow",
-    "Population_EN": null,
-    "Scientific_Name": "Opsopoeodus emiliae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "North Sydenham River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Minnow",
-    "Population_EN": null,
-    "Scientific_Name": "Opsopoeodus emiliae",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Sydenham River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+
+
   {
    "attributes": {
     "Common_Name_EN": "Eastern Sand Darter",
     "Population_EN": "Ontario",
     "Scientific_Name": "Ammocrypta pellucida",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Big Creek (Crique)",
+    "Waterbody": "Big Creek (Crique),Fansher Creek (Crique),Grand River (Rivière),Lower Thames River (Rivière),Sydenham River (Rivière)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Eastern Sand Darter",
-    "Population_EN": "Ontario",
-    "Scientific_Name": "Ammocrypta pellucida",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Fansher Creek (Crique)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Eastern Sand Darter",
-    "Population_EN": "Ontario",
-    "Scientific_Name": "Ammocrypta pellucida",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Grand River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Eastern Sand Darter",
-    "Population_EN": "Ontario",
-    "Scientific_Name": "Ammocrypta pellucida",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Lower Thames River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Eastern Sand Darter",
-    "Population_EN": "Ontario",
-    "Scientific_Name": "Ammocrypta pellucida",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Sydenham River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Lake Chubsucker",
     "Population_EN": null,
     "Scientific_Name": "Erimyzon sucetta",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
+    "Waterbody": "Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek, L Lake (Lac), Long Point (Pointe), Lyons Creek (Crique), Old Ausable Channel (Chenal), Point Pelee National Park/Parc national du Canada de la Pointe-Pelée, Rondeau Bay (Baie), St. Clair National Wildlife Area/Réserve nationale de faune de Sainte-Claire",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp101p1.jpg"
    }
   },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "L Lake (Lac)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Long Point (Pointe)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Lyons Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Old Ausable Channel (Chenal)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Point Pelee National Park/Parc national du Canada de la Pointe-Pelée",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Rondeau Bay (Baie)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Lake Chubsucker",
-    "Population_EN": null,
-    "Scientific_Name": "Erimyzon sucetta",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "St. Clair National Wildlife Area/Réserve nationale de faune de Sainte-Claire",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
+
   {
    "attributes": {
     "Common_Name_EN": "Northern Madtom",
@@ -2238,7 +705,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg"
    }
   },
   {
@@ -2247,50 +715,12 @@
     "Population_EN": null,
     "Scientific_Name": "Ptychobranchus fasciolaris",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Ausable River (Rivière)",
+    "Waterbody": "Ausable River (Rivière), Medway Creek (Crique), Lower Thames River (Rivière), East Sydenham River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Kidneyshell",
-    "Population_EN": null,
-    "Scientific_Name": "Ptychobranchus fasciolaris",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Medway Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Kidneyshell",
-    "Population_EN": null,
-    "Scientific_Name": "Ptychobranchus fasciolaris",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Lower Thames River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Kidneyshell",
-    "Population_EN": null,
-    "Scientific_Name": "Ptychobranchus fasciolaris",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "East Sydenham River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp774p1.jpg"
    }
   },
   {
@@ -2299,24 +729,12 @@
     "Population_EN": null,
     "Scientific_Name": "Epioblasma rangiana",
     "Eco_Type": "Freshwater",
-    "Waterbody": "East Sydenham River (Rivière)",
+    "Waterbody": "East Sydenham River (Rivière), Ausable River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/582-234",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Northern Riffleshell",
-    "Population_EN": null,
-    "Scientific_Name": "Epioblasma rangiana",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Ausable River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/582-234",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp582p1.jpg"
    }
   },
   {
@@ -2325,24 +743,12 @@
     "Population_EN": null,
     "Scientific_Name": "Villosa fabalis",
     "Eco_Type": "Freshwater",
-    "Waterbody": "North Thames River (Rivière)",
+    "Waterbody": "North Thames River (Rivière), East Sydenham River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/581-233",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rayed Bean",
-    "Population_EN": null,
-    "Scientific_Name": "Villosa fabalis",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "East Sydenham River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/581-233",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp581p1.jpg"
    }
   },
   {
@@ -2355,7 +761,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/768-305",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp768p1.jpg"
    }
   },
   {
@@ -2364,63 +771,12 @@
     "Population_EN": null,
     "Scientific_Name": "Pleurobema sintoxia",
     "Eco_Type": "Freshwater",
-    "Waterbody": "South Thames River (Rivière)",
+    "Waterbody": "South Thames River (Rivière), ast Sydenham River (Rivière), Middle Thames River (Rivière), Bear Creek (Crique), Grand River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Round Pigtoe",
-    "Population_EN": null,
-    "Scientific_Name": "Pleurobema sintoxia",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "East Sydenham River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Round Pigtoe",
-    "Population_EN": null,
-    "Scientific_Name": "Pleurobema sintoxia",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Middle Thames River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Round Pigtoe",
-    "Population_EN": null,
-    "Scientific_Name": "Pleurobema sintoxia",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bear Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Round Pigtoe",
-    "Population_EN": null,
-    "Scientific_Name": "Pleurobema sintoxia",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Grand River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp817p1.jpg"
    }
   },
   {
@@ -2433,7 +789,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/671-263",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp671p1.jpg"
    }
   },
   {
@@ -2442,24 +799,12 @@
     "Population_EN": null,
     "Scientific_Name": "Epioblasma triquetra",
     "Eco_Type": "Freshwater",
-    "Waterbody": "East Sydenham River (Rivière)",
+    "Waterbody": "East Sydenham River (Rivière), Ausable River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/670-262",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Snuffbox",
-    "Population_EN": null,
-    "Scientific_Name": "Epioblasma triquetra",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Ausable River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/670-262",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp670p1.jpg"
    }
   },
   {
@@ -2472,7 +817,8 @@
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg"
    }
   },
   {
@@ -2481,37 +827,12 @@
     "Population_EN": "Lake Utopia Small-Bodied",
     "Scientific_Name": "Osmerus mordax",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Second Brook (Ruisseau)",
+    "Waterbody": "Second Brook (Ruisseau), Smelt Brook (Ruisseau), Unnamed Brook (Ruisseau)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
     "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Smelt",
-    "Population_EN": "Lake Utopia Small-Bodied",
-    "Scientific_Name": "Osmerus mordax",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Smelt Brook (Ruisseau)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Smelt",
-    "Population_EN": "Lake Utopia Small-Bodied",
-    "Scientific_Name": "Osmerus mordax",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Unnamed Brook (Ruisseau)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
-    "Lead_Region": "Maritimes",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg"
    }
   },
   {
@@ -2524,7 +845,8 @@
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
     "Lead_Region": "Maritimes",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg"
    }
   },
   {
@@ -2533,24 +855,12 @@
     "Population_EN": null,
     "Scientific_Name": "Anarhichas denticulatus",
     "Eco_Type": "Marine",
-    "Waterbody": "Atlantic Ocean/Océan Atlantique",
+    "Waterbody": "Atlantic Ocean/Océan Atlantique, Gulf of St Lawrence/Golfe du Saint-Laurent",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/667-260",
     "Lead_Region": "Newfoundland and Labrador",
-    "Support_Region": "Quebec"
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Northern Wolffish",
-    "Population_EN": null,
-    "Scientific_Name": "Anarhichas denticulatus",
-    "Eco_Type": "Marine",
-    "Waterbody": "Gulf of St Lawrence/Golfe du Saint-Laurent",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/667-260",
-    "Lead_Region": "Newfoundland and Labrador",
-    "Support_Region": "Quebec"
+    "Support_Region": "Quebec",
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp667p1.jpg"
    }
   },
   {
@@ -2559,24 +869,12 @@
     "Population_EN": null,
     "Scientific_Name": "Anarhichas minor",
     "Eco_Type": "Marine",
-    "Waterbody": "Atlantic Ocean/Océan Atlantique",
+    "Waterbody": "Atlantic Ocean/Océan Atlantique, Gulf of St Lawrence/Golfe du Saint-Laurent",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/669-261",
     "Lead_Region": "Newfoundland and Labrador",
-    "Support_Region": "Quebec"
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Spotted Wolffish",
-    "Population_EN": null,
-    "Scientific_Name": "Anarhichas minor",
-    "Eco_Type": "Marine",
-    "Waterbody": "Gulf of St Lawrence/Golfe du Saint-Laurent",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/669-261",
-    "Lead_Region": "Newfoundland and Labrador",
-    "Support_Region": "Quebec"
+    "Support_Region": "Quebec",
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp669p1.jpg"
    }
   },
   {
@@ -2585,141 +883,12 @@
     "Population_EN": null,
     "Scientific_Name": "Catostomus catostomus ssp",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Agassiz Slough (Marécage) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
+    "Waterbody": "Agassiz Slough (Marécage), Fishtrap Creek (Crique), Hope Slough (Marécage), Miami River (Rivière), Mountain Slough (Marécage), Salmon River (Rivière), Salwein Creek, Hopedale Slough (Crique, Marécage), Chilliwack Delta (Delta), Bertrand Creek (Crique), Little Campbell River (Rivière)  - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
     "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Fishtrap Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Hope Slough (Marécage) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Miami River (Rivière) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Mountain Slough (Marécage) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Salmon River (Rivière) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Salwein Creek, Hopedale Slough (Crique, Marécage) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Chilliwack Delta (Delta) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bertrand Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Pepin Creek (Crique) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Salish Sucker",
-    "Population_EN": null,
-    "Scientific_Name": "Catostomus catostomus ssp",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Little Campbell River (Rivière) - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp067p1.jpg"
    }
   },
   {
@@ -2728,24 +897,12 @@
     "Population_EN": null,
     "Scientific_Name": "Notropis anogenus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent",
+    "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent, Long Point (Pointe)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Pugnose Shiner",
-    "Population_EN": null,
-    "Scientific_Name": "Notropis anogenus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Long Point (Pointe)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
    }
   },
   {
@@ -2754,259 +911,14 @@
     "Population_EN": "Athabasca River",
     "Scientific_Name": "Oncorhynchus mykiss",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Adams Creek (Crique)",
+    "Waterbody": "Adams Creek (Crique), Anderson Creek (Crique), Antler Creek (Crique), Apetowun Creek (Crique), Bacon Creek (Crique), Barbara Creek (Crique), Baril Creek (Crique), Baseline Creek (Crique), Bear Creek (Crique), Beaver Creek (Crique), Beaverdam Creek (Crique), Berland River (Rivière), Big Creek (Crique), Broad Creek (Crique), Buffalo Prairie Creek (Crique), Cabin Creek (Crique), Canyon Creek (Crique), Carson Creek (Crique), Centre Creek (Crique), Chance Creek (Crique)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
     "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Anderson Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Antler Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Apetowun Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bacon Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Barbara Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Baril Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Baseline Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Bear Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Beaver Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Beaverdam Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Berland River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Big Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Broad Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Buffalo Prairie Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Cabin Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Canyon Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Carson Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Centre Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rainbow Trout",
-    "Population_EN": "Athabasca River",
-    "Scientific_Name": "Oncorhynchus mykiss",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Chance Creek (Crique)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
+    "Support_Region": null,
+    "Image": "https://a-z-animals.com/media/2023/02/Rainbow-Trout.jpg"
    }
   }
+ 
  ]
 }

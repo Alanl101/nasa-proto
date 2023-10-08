@@ -6,7 +6,13 @@ import React, { useState } from 'react';
 
 export default function Home() {
 
+   // Access the features array from the imported JSON data
+   const { features } = speciesData;
 
+   // For demonstration, let's access data from the first feature
+   const firstFeature = features[0];
+ 
+  //animal data example
   const animalData = {
     imageUrl: 'https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg',
     commonName: 'Common Name',
@@ -17,8 +23,8 @@ export default function Home() {
     leadRegion: 'Pacific',
   };
 
-  const [selectedStatusFilter, setSelectedStatusFilter] = useState('Endangered');
-  const [selectedLocationFilter, setSelectedLocationFilter] = useState('Range');
+  const [selectedStatusFilter, setSelectedStatusFilter] = useState();
+  const [selectedLocationFilter, setSelectedLocationFilter] = useState();
 
   // Function to handle status filter selection
   const handleStatusFilterChange = (event: any) => {
@@ -102,7 +108,21 @@ export default function Home() {
         </select>
       </div>
 
-      <AnimalCard {...animalData} />
+      {/* Animal Cards */}
+    <div className="grid grid-cols-1 gap-4">
+      {features.map((feature, index) => (
+        <AnimalCard
+          key={index}
+          imageUrl={feature.attributes.imageUrl}
+          commonName={feature.attributes.Common_Name_EN}
+          scientificName={feature.attributes.Scientific_Name}
+          waterBody={feature.attributes.Waterbody}
+          ecoType={feature.attributes.Eco_Type}
+          status={feature.attributes.SARA_Status}
+          leadRegion={feature.attributes.Lead_Region}
+        />
+      ))}
+    </div>
 
       
 

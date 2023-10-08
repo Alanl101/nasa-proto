@@ -74,20 +74,7 @@
     "Population_EN": "Eastslope",
     "Scientific_Name": "Cottus sp.",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Milk River (Rivière)",
-    "SARA_Status": "Threatened",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
-    "Lead_Region": "Central and Arctic",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Rocky Mountain Sculpin",
-    "Population_EN": "Eastslope",
-    "Scientific_Name": "Cottus sp.",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "St. Mary River (Rivière)",
+    "Waterbody": "Milk River (Rivière), St. Mary River (Rivière)",
     "SARA_Status": "Threatened",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
     "Lead_Region": "Central and Arctic",
@@ -100,20 +87,7 @@
     "Population_EN": null,
     "Scientific_Name": "Rhinichthys osculus",
     "Eco_Type": "Freshwater",
-    "Waterbody": "Granby River (Rivière)",
-    "SARA_Status": "Endangered",
-    "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
-    "Lead_Region": "Pacific",
-    "Support_Region": null
-   }
-  },
-  {
-   "attributes": {
-    "Common_Name_EN": "Speckled Dace",
-    "Population_EN": null,
-    "Scientific_Name": "Rhinichthys osculus",
-    "Eco_Type": "Freshwater",
-    "Waterbody": "Kettle River (Rivière)",
+    "Waterbody": "Granby River (Rivière), Kettle River (Rivière)",
     "SARA_Status": "Endangered",
     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
     "Lead_Region": "Pacific",

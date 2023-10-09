@@ -8,6 +8,12 @@ export default function AnimalDetail() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
+  // Function to navigate back
+  const goBack = () => {
+    router.back(); // This takes you back to the previous page
+  };
+
+
   const name = searchParams.get('commonName');
   const creatureName = name ? decodeURIComponent(name.toString()) : 'Loading...';
   const { features } = species;
@@ -30,13 +36,19 @@ export default function AnimalDetail() {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-2xl space-y-6">
+        {/* Add a button to navigate back */}
+        <button onClick={goBack} className="text-blue-500 mb-4">
+        <span className="mr-2">&#8592;</span>
+        </button>
+
+        {/* Name */}
+        <h1 className="text-2xl font-bold text-center mb-4">{animalData.name}</h1>
+
         {/* Image */}
         <div className="w-full h-64 bg-gray-300 mb-4 rounded-md overflow-hidden border-4 border-blue-500">
           <img src={animalData.image} alt={creatureName} className="w-full h-full object-cover" />
         </div>
 
-        {/* Name */}
-        <h1 className="text-2xl font-bold text-center mb-4">{animalData.name}</h1>
 
         {/* Description */}
         {animalData.description !== undefined && animalData.description !== null && (

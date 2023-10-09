@@ -1,910 +1,1070 @@
 {
-    "displayFieldName": "Common_Name_EN",
-    "fieldAliases": {
-     "Common_Name_EN": "Common Name EN",
-     "Population_EN": "Population EN",
-     "Scientific_Name": "Scientific Name",
-     "Eco_Type": "Ecology Type",
-     "Waterbody": "Waterbody",
-     "SARA_Status": "SARA Status",
-     "Species_Link": "Species Link",
-     "Lead_Region": "Lead Region",
-     "Support_Region": "Support Region",
-     "Image": "Image"
-    },
-    "fields": [
-     {
-      "name": "Common_Name_EN",
-      "type": "esriFieldTypeString",
-      "alias": "Common Name EN",
-      "length": 255
-     },
-     {
-      "name": "Population_EN",
-      "type": "esriFieldTypeString",
-      "alias": "Population EN",
-      "length": 255
-     },
-     {
-      "name": "Scientific_Name",
-      "type": "esriFieldTypeString",
-      "alias": "Scientific Name",
-      "length": 255
-     },
-     {
-      "name": "Eco_Type",
-      "type": "esriFieldTypeString",
-      "alias": "Ecology Type",
-      "length": 255
-     },
-     {
-      "name": "Waterbody",
-      "type": "esriFieldTypeString",
-      "alias": "Waterbody",
-      "length": 255
-     },
-     {
-      "name": "SARA_Status",
-      "type": "esriFieldTypeString",
-      "alias": "SARA Status",
-      "length": 255
-     },
-     {
-      "name": "Species_Link",
-      "type": "esriFieldTypeString",
-      "alias": "Species Link",
-      "length": 255
-     },
-     {
-      "name": "Lead_Region",
-      "type": "esriFieldTypeString",
-      "alias": "Lead Region",
-      "length": 255
-     },
-     {
-      "name": "Support_Region",
-      "type": "esriFieldTypeString",
-      "alias": "Support Region",
-      "length": 255
-     },
+  "displayFieldName": "Common_Name_EN",
+  "fieldAliases": {
+   "Common_Name_EN": "Common Name EN",
+   "Population_EN": "Population EN",
+   "Scientific_Name": "Scientific Name",
+   "Eco_Type": "Ecology Type",
+   "Waterbody": "Waterbody",
+   "SARA_Status": "SARA Status",
+   "Species_Link": "Species Link",
+   "Lead_Region": "Lead Region",
+   "Support_Region": "Support Region",
+   "Image": "Image"
+  },
+  "fields": [
+   {
+    "name": "Common_Name_EN",
+    "type": "esriFieldTypeString",
+    "alias": "Common Name EN",
+    "length": 255
+   },
+   {
+    "name": "Population_EN",
+    "type": "esriFieldTypeString",
+    "alias": "Population EN",
+    "length": 255
+   },
+   {
+    "name": "Scientific_Name",
+    "type": "esriFieldTypeString",
+    "alias": "Scientific Name",
+    "length": 255
+   },
+   {
+    "name": "Eco_Type",
+    "type": "esriFieldTypeString",
+    "alias": "Ecology Type",
+    "length": 255
+   },
+   {
+    "name": "Waterbody",
+    "type": "esriFieldTypeString",
+    "alias": "Waterbody",
+    "length": 255
+   },
+   {
+    "name": "SARA_Status",
+    "type": "esriFieldTypeString",
+    "alias": "SARA Status",
+    "length": 255
+   },
+   {
+    "name": "Species_Link",
+    "type": "esriFieldTypeString",
+    "alias": "Species Link",
+    "length": 255
+   },
+   {
+    "name": "Lead_Region",
+    "type": "esriFieldTypeString",
+    "alias": "Lead Region",
+    "length": 255
+   },
+   {
+    "name": "Support_Region",
+    "type": "esriFieldTypeString",
+    "alias": "Support Region",
+    "length": 255
+   },
+ 
+ {
+   "name": "Image",
+   "type": "esriFieldTypeString",
+   "alias": "Image_Link",
+   "length": 255
+ },
+ 
+ {
+ "name": "Reason",
+ "type": "esriFieldTypeString",
+   "alias": "Reason",
+   "length": 255
+ },
+ {
+   "name": "Description",
+   "type": "esriFieldTypeString",
+   "alias": "Description",
+   "length": 255
+ },
+ {
+   "name": "Fun_Fact",
+   "type": "esriFieldTypeString",
+   "alias": "Fun_Fact",
+   "length": 255
+ }
+  ],
+  "features": [
+   {
+    "attributes": {
+     "Common_Name_EN": "Rocky Mountain Sculpin",
+     "Population_EN": "Eastslope",
+     "Scientific_Name": "Cottus sp.",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Milk River (Rivière),St. Mary River (Rivière)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg",
+     "Reason": "The major threats to the Rocky Mountain Sculpin include habitat degradation due to agricultural activities, urban development, and water extraction. Additionally, invasive species pose competition for resources, further endangering its survival.",
+     "Description": "This fish exhibits a mottled pattern of browns and grays, helping it camouflage perfectly with the riverbeds where it resides. It has a broad, flattened head which gives it its common name.",
+     "Fun_Fact": "The Rocky Mountain Sculpin is unique in that it lacks a swim bladder, which is typically responsible for helping fish maintain buoyancy. Instead, it stays on the riverbed and moves around using its pectoral fins!"
+     
+    }
+   },
    
    {
-     "name": "Image",
-     "type": "esriFieldTypeString",
-     "alias": "Image_Link",
-     "length": 255
-   }
-    ],
-    "features": [
-     {
-      "attributes": {
-       "Common_Name_EN": "Rocky Mountain Sculpin",
-       "Population_EN": "Eastslope",
-       "Scientific_Name": "Cottus sp.",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Milk River (Rivière), St. Mary River (Rivière), Lee Creek (Crique)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg"
-      }
-     },
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Speckled Dace",
-       "Population_EN": null,
-       "Scientific_Name": "Rhinichthys osculus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Granby River (Rivière),Kettle River (Rivière),West Kettle River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp116p1.jpg"
-      }
-     },
-    
-   
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Western Brook Lamprey",
-       "Population_EN": "Morrison Creek",
-       "Scientific_Name": "Lampetra richardsoni",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Arden Creek (Crique),First Supply Creek (Crique),Morrison Creek (Crique),Morrison Creek Watershed Wetlands (Crique)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp593p1.jpg"
-      }
-     },
-    
-     
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Hotwater Physa",
-       "Population_EN": null,
-       "Scientific_Name": "Physella wrighti",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Liard River Hot Springs (Source)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/548-224",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp548p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Carmine Shiner",
-       "Population_EN": null,
-       "Scientific_Name": "Notropis percobromus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Birch River (Rivière),Whitemouth River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/112-19",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp112p1.jpg"
-      }
-     },
-    
-     {
-      "attributes": {
-       "Common_Name_EN": "Eastern Sand Darter",
-       "Population_EN": "Ontario",
-       "Scientific_Name": "Ammocrypta pellucida",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Long Point (Pointe)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg" 
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Madtom",
-       "Population_EN": null,
-       "Scientific_Name": "Noturus stigmosus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Detroit River/Rivière Détroit",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Spotted Gar",
-       "Population_EN": null,
-       "Scientific_Name": "Lepisosteus oculatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Point Pelee National Park/Parc national du Canada de la Pointe-Pelée",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Western Silvery Minnow",
-       "Population_EN": null,
-       "Scientific_Name": "Hybognathus argyritis",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Milk River (Rivière)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/317-18",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp317p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Atlantic Whitefish",
-       "Population_EN": null,
-       "Scientific_Name": "Coregonus huntsmani",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Hebb Lake (Lac), Milipsigate Lake (Lac),Minamkeak Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
-       "Lead_Region": "Maritimes",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Rainbow Smelt",
-       "Population_EN": "Lake Utopia Small-Bodied",
-       "Scientific_Name": "Osmerus mordax",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Lake Utopia (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
-       "Lead_Region": "Maritimes",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "North Atlantic Right Whale",
-       "Population_EN": null,
-       "Scientific_Name": "Eubalaena glacialis",
-       "Eco_Type": "Marine",
-       "Waterbody": "Grand Manan Basin (Bassin),Roseway Basin (Bassin)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/780-298",
-       "Lead_Region": "Maritimes",
-       "Support_Region": "Quebec, Gulf, Newfoundland and Labrador",
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp780p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Bottlenose Whale",
-       "Population_EN": "Scotian Shelf",
-       "Scientific_Name": "Hyperoodon ampullatus",
-       "Eco_Type": "Marine",
-       "Waterbody": "Haldimand Canyon (Canyon), Shortland Canyon (Canyon), The Gully/Le Goulet",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
-       "Lead_Region": "Maritimes",
-       "Support_Region": "Newfoundland and Labrador",
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp162p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Cultus Pygmy Sculpin",
-       "Population_EN": "Cultus",
-       "Scientific_Name": "Cottus aleuticus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Cultus Lake (Lac)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/300-213",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp300p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Paxton Lake Benthic Threespine Stickleback",
-       "Population_EN": null,
-       "Scientific_Name": "Gasterosteus aculeatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Paxton Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/544-222",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp544p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Paxton Lake Limnetic Threespine Stickleback",
-       "Population_EN": null,
-       "Scientific_Name": "Gasterosteus aculeatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Paxton Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/554-227",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://www.hlasek.com/foto/gasterosteus_aculeatus_hd1792.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Vananda Creek Benthic Threespine Stickleback",
-       "Population_EN": null,
-       "Scientific_Name": "Gasterosteus aculeatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Vananda Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/600-242",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife.ca.gov/portals/0/Images/InlandFisheries/Projects/SanFelipe/FIGURE1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Vananda Creek Limnetic Threespine Stickleback",
-       "Population_EN": null,
-       "Scientific_Name": "Gasterosteus aculeatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Vananda Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/604-245",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://portal.ct.gov/-/media/DEEP/fishing/freshwater/freshwater_fishes/Sticklebacks/80aThreespineStickleback8cmAcompressed.jpg?sc_lang=en&hash=D71B8C9CEFCE2B5D0DBC6CDDC3E6DADE"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "White Sturgeon",
-       "Population_EN": "Upper Columbia River",
-       "Scientific_Name": "Acipenser transmontanus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Bowron River (Rivière),Fraser River/Fleuve Fraser,Nechako River (Rivière), Kootenay Lake (Lac), Stuart Lake (Lac),Stuart River (Rivière),Trembleur Lake (Lac), Columbia River/Fleuve Columbia,Lower Kootenay River (Rivière),Upper Arrow Lake (Lac),Fraser Lake (Lac),Nautley River (Rivière),Nechako River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp123p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Copper Redhorse",
-       "Population_EN": null,
-       "Scientific_Name": "Moxostoma hubbsi",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Barrage de Chambly (Dam),Rivière Richelieu (River),Barrage Saint-Ours (Dam),St. Lawrence River/Fleuve Saint-Laurent",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
-       "Lead_Region": "Quebec",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp075p1.jpg"
-      }
-     },
-   
-    
-     {
-      "attributes": {
-       "Common_Name_EN": "Eastern Sand Darter",
-       "Population_EN": "Quebec",
-       "Scientific_Name": "Ammocrypta pellucida",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Rivière-aux-Saumons (River),Rivière L'Assomption et Rivière Ouareau (River),Rivière Richelieu (River)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1076-734",
-       "Lead_Region": "Quebec",
-       "Support_Region": null,
-       "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/6228288/large.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Spring Cisco",
-       "Population_EN": null,
-       "Scientific_Name": "Coregonus sp",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Lac des Écorces (Lake)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/119-406",
-       "Lead_Region": "Quebec",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp119p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Beluga Whale",
-       "Population_EN": "St. Lawrence Estuary",
-       "Scientific_Name": "Delphinapterus leucas",
-       "Eco_Type": "Marine",
-       "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/102-111",
-       "Lead_Region": "Quebec",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp102p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Harbour Seal",
-       "Population_EN": "Lacs des Loups Marins",
-       "Scientific_Name": "Phoca vitulina mellonae",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Lac Bourdel (Lake),Lacs des Loups Marins (Lakes),Petit lac des Loups Marins (Lake)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/159-427",
-       "Lead_Region": "Quebec",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp159p1.jpg"
-      }
-     },
-    
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Atlantic Salmon",
-       "Population_EN": "Inner Bay of Fundy",
-       "Scientific_Name": "Salmo salar",
-       "Eco_Type": "Anadromous",
-       "Waterbody": "Big Salmon River (Rivière),Debert River (Rivière),Economy River (Rivière),Folly River (Rivière),Gaspereau River (Rivière),Great Village River (Rivière),Point Wolfe River (Rivière),Portapique River (Rivière),Stewiacke River (Rivière),Upper Salmon River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
-       "Lead_Region": "Maritimes",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp672p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Fawnsfoot",
-       "Population_EN": null,
-       "Scientific_Name": "Truncilla donaciformis",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Grand River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Threehorn Wartyback",
-       "Population_EN": null,
-       "Scientific_Name": "Obliquaria reflexa",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Grand River (Rivière)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/89450/large.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Misty Lake Lentic Threespine Stickleback",
-       "Population_EN": null,
-       "Scientific_Name": "Gasterosteus aculeatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Misty Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/952-671",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://www.aquariumofpacific.org/images/olc/AlaskaStreamMale_f.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Misty Lake Lotic Threespine Stickleback",
-       "Population_EN": null,
-       "Scientific_Name": "Gasterosteus aculeatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Misty Lake (Lac)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/953-672",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://nas.er.usgs.gov/XIMAGESERVERX/2019/20190506121725.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Silver Shiner",
-       "Population_EN": null,
-       "Scientific_Name": "Notropis photogenis",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Avon River (Rivière),Black Creek (Crique),Bronte Creek (Crique),Conestogo River (Rivière),Dingman Creek (Crique),Grand River (Rivière),Medway Creek (Crique),Middle Thames River (Rivière),Nith River (Rivière),North Thames River (Rivière),Oxbow Creek (Crique),Sixteen Mile Creek (Crique),Stoney Creek (Crique),Thames River/Rivière Thames,Trout Creek (Crique),Wye Creek (Crique),East Sixteen Mile Creek (Crique),South Thames River (Rivière),Fish Creek (Crique),Whirl Creek (Crique)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp115p1.jpg"
-     }
+    "attributes": {
+     "Common_Name_EN": "Speckled Dace",
+     "Population_EN": null,
+     "Scientific_Name": "Rhinichthys osculus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Granby River (Rivière),Kettle River (Rivière),West Kettle River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/116-301",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp116p1.jpg",
+     "Reason": "The major threats to the Speckled Dace include habitat loss due to water diversion, urban development, and agriculture. Additionally, the introduction of non-native fish species has led to competition and predation, impacting its numbers.",
+     "Description": "This small fish usually grows up to 4 inches long and has a slender body. Its olive-green coloration is peppered with tiny dark spots, which are more densely packed on the back and sides.",
+     "Fun_Fact": "The Speckled Dace is quite an agile swimmer, often found darting quickly in the clear waters it inhabits. It gets its name from the numerous small, dark speckles that cover its olive-green body"
+    }
    },
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Killer Whale",
-       "Population_EN": "Northeast Pacific Northern Resident",
-       "Scientific_Name": "Orcinus orca",
-       "Eco_Type": "Marine",
-       "Waterbody": "Pacific Ocean/Océan Pacifique, Pacific Ocean/Océan Pacifique",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/698-8",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp698p1.jpg"
-      }
-     },
+  
+ 
    
-     {
-      "attributes": {
-       "Common_Name_EN": "Channel Darter",
-       "Population_EN": "Lake Erie",
-       "Scientific_Name": "Percina copelandi",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Point Pelee (Pointe), Black River (Rivière),Moira River (Rivière),Salmon River (Rivière),Skootamatta River (Rivière),Trent River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1344-977",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://www.thelandbetween.ca/wp-content/uploads/bb-plugin/cache/Channel-Darter-Bio-landscape-552c8d62b7bf0fcd34172fd80499776b-z2kr6vf8tpql.jpeg"
-      }
-     },
-    
-     {
-      "attributes": {
-       "Common_Name_EN": "Pugnose Shiner",
-       "Population_EN": null,
-       "Scientific_Name": "Notropis anogenus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "East Lake (Lac),Mouth Lake (Lac),Old Ausable Channel (Chenal), Big Creek (Crique),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
-      }
-     },
+   {
+    "attributes": {
+     "Common_Name_EN": "Western Brook Lamprey",
+     "Population_EN": "Morrison Creek",
+     "Scientific_Name": "Lampetra richardsoni",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Arden Creek (Crique),First Supply Creek (Crique),Morrison Creek (Crique),Morrison Creek Watershed Wetlands (Crique)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/593-241",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp593p1.jpg",
+     "Reason": "The main threats to Western Brook Lamprey include habitat degradation due to logging, agricultural runoff, and urban development, which affect the water quality of their habitats. Additionally, alterations to streambeds, such as dam constructions, can disrupt their breeding and feeding grounds.",
+     "Description": "The Western Brook Lamprey is a small, eel-like fish that typically measures between 15 to 20 cm in length. Adults are dark blue or greenish on the back, with lighter-colored sides and a white or yellowish belly. They possess a round, sucker-like mouth which they use during their larval stage to filter-feed in stream sediments.",
+     "Fun_Fact": "One Fun_Fact is that it's a jawless fish and one of the most primitive vertebrates, dating back over 360 million years. Another interesting fact is that it's a parasitic species, attaching itself to other fish to feed on their bodily fluids during its larval stage."
+    }
+   },
+  
    
-     {
-      "attributes": {
-       "Common_Name_EN": "Spotted Gar",
-       "Population_EN": null,
-       "Scientific_Name": "Lepisosteus oculatus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "3rd Concession Drain (Canal artificiel),4th Concession Drain (Canal artificiel),Buchanan Drain (Canal artificiel),Burke Drain (Canal artificiel),Coleman Drain (Canal artificiel),Flat Creek (Crique),Georgie Creek (Crique),Indian Creek (Crique),John Clarke Drain (Canal artificiel),Mill Creek (Crique),Unnamed Drain (Canal artificiel),Willow Creek Drain (Canal artificiel),Rondeau Bay (Baie),Bluff Marsh (Marche),Inner Bay (Baie),Long Point (Pointe),Long Point (Pointe), Inner Bay (Baie),Sunk Marsh (Marche),Turkey Point Marsh (Marche),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg"
-      }
-     },
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Nooksack Dace",
-       "Population_EN": null,
-       "Scientific_Name": "Rhinichthys cataractae ssp",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Bertrand Creek (Crique), Fishtrap Creek (Crique),Pepin Creek (Crique) , Bertrand Creek (Crique),Brunette River (Rivière)- Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp066p1.jpg"
-      }
-     },
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Threehorn Wartyback",
-       "Population_EN": null,
-       "Scientific_Name": "Obliquaria reflexa",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Bear Creek (Crique),Sydenham River (Rivière),Thames River/Rivière Thames",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://people.se.cmich.edu/zanat1d/obliquaria-cranecreek.jpg"
-      }
-     },
-     
-     {
-      "attributes": {
-       "Common_Name_EN": "Fawnsfoot",
-       "Population_EN": null,
-       "Scientific_Name": "Truncilla donaciformis",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Bear Creek (Crique),Sydenham River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698,Thames River/Rivière Thames",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg"
-      }
-     },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Hotwater Physa",
+     "Population_EN": null,
+     "Scientific_Name": "Physella wrighti",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Liard River Hot Springs (Source)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/548-224",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp548p1.jpg",
+     "Reason": "The Hotwater Physa is endangered primarily due to habitat destruction and alteration caused by human activities, such as urbanization, agriculture, and water pollution. Additionally, the limited range and specific habitat requirements of this snail make it vulnerable to environmental changes, further contributing to its endangered status.",
+     "Description": "The Hotwater Physa, scientifically known as Physa natricina, is a small, air-breathing aquatic snail species found in freshwater habitats in the United States. These snails typically have elongated, spiral-shaped shells with a distinctive dark band along their whorls and are adapted to live in warm, often thermally influenced waters, hence their common name.",
+     "Fun_Fact": "Hotwater Physa snails are known for their exceptional ability to tolerate extreme temperatures. They can survive in waters that are much hotter than most other aquatic snail species, making them well-suited to geothermal habitats.These snails are often considered an indicator species for assessing water quality because they are sensitive to pollution and habitat changes. Their presence or absence in an ecosystem can provide valuable insights into the health of aquatic environments."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Carmine Shiner",
+     "Population_EN": null,
+     "Scientific_Name": "Notropis percobromus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Birch River (Rivière),Whitemouth River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/112-19",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp112p1.jpg",
+     "Reason": "The main threats to the Carmine Shiner include habitat degradation from activities like agriculture, urban development, and damming of rivers which can lead to changes in water flow and quality. Habitat fragmentation and pollution have also impacted its distribution and abundance.",
+     "Description": "The Carmine Shiner is a small, slender fish that can reach lengths of up to 9 cm. It has large eyes and a transparent body with silvery sides. During spawning, males exhibit vibrant coloration with hints of gold and carmine.",
+     "Fun_Fact": "The Carmine Shiner is named for its vibrant, shimmering colors that can range from a deep pink to a golden hue, especially during breeding seasons."
+    }
+   },
+  
+   {
+    "attributes": {
+     "Common_Name_EN": "Eastern Sand Darter",
+     "Population_EN": "Ontario",
+     "Scientific_Name": "Ammocrypta pellucida",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Long Point (Pointe)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image":"https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg",
+     "Reason": "The primary threats to the Eastern Sand Darter are habitat loss and degradation. Activities like dredging, siltation from agriculture and urban runoff, and changes in water flow due to dam constructions have significantly impacted its habitat. Additionally, water pollution from various sources further threatens its survival.",
+     "Description": "This small fish typically measures about 6 to 8 cm in length. It has a slender and elongated body with a translucent appearance, which aids in its camouflage. Its back is lightly speckled, giving it a sandy look that matches its preferred habitat.",
+     "Fun_Fact": "The Eastern Sand Darter is a master of camouflage. It buries itself in sandy substrates with only its eyes peeking out, making it almost invisible to predators and its prey." 
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Northern Madtom",
+     "Population_EN": null,
+     "Scientific_Name": "Noturus stigmosus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Detroit River/Rivière Détroit",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg",
+     "Reason": "The main threats to the Northern Madtom are habitat degradation and pollution. Their specific habitat requirements, like clean sandy or gravelly substrates and clear water, make them particularly vulnerable to water pollution, sedimentation, and disturbances from human activities such as dam construction and shoreline development.",
+     "Description": "This small catfish averages about 7 cm in length, but some individuals can grow up to 10 cm. It has a stout body with a broad, flattened head. The coloration varies from dark brown to slate gray, with a distinctive saddle-like marking on its back and a whitish belly.",
+     "Fun_Fact": "The Northern Madtom is one of the smaller members of the catfish family, but don't be fooled by its size! Like other catfish, it has sharp spines in its pectoral and dorsal fins, which can deliver a painful sting if handled improperly."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Spotted Gar",
+     "Population_EN": null,
+     "Scientific_Name": "Lepisosteus oculatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Point Pelee National Park/Parc national du Canada de la Pointe-Pelée,3rd Concession Drain (Canal artificiel),4th Concession Drain (Canal artificiel),Buchanan Drain (Canal artificiel),Burke Drain (Canal artificiel),Coleman Drain (Canal artificiel),Flat Creek (Crique),Georgie Creek (Crique),Indian Creek (Crique),John Clarke Drain (Canal artificiel),Mill Creek (Crique),Unnamed Drain (Canal artificiel),Willow Creek Drain (Canal artificiel),Rondeau Bay (Baie),Bluff Marsh (Marche),Inner Bay (Baie),Long Point (Pointe),Long Point (Pointe), Inner Bay (Baie),Sunk Marsh (Marche),Turkey Point Marsh (Marche),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/117-113",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp117p1.jpg",
+     "Reason": "The main threats to its freshwater habitats face significant degradation or destruction due to factors such as urbanization, pollution, or habitat alteration. Additionally, overfishing or invasive species that disrupt its natural ecosystem pose a threat to the Spotted Gar population.",
+     "Description": "The Spotted Gar, Lepisosteus oculatus, is a freshwater fish native to North America known for its distinctive appearance. It has an elongated body covered in thick, armor-like scales, and its most prominent feature is the dark, irregular spots on its body and fins, which give it the name Spotted Gar.",
+     "Fun_Fact": "Spotted Gars are skilled predators, using their long snouts filled with needle-like teeth to capture prey with lightning-fast strikes. Unlike most fish, Spotted Gars can gulp air at the water's surface, allowing them to survive in oxygen-depleted or stagnant waters for extended periods."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Western Silvery Minnow",
+     "Population_EN": null,
+     "Scientific_Name": "Hybognathus argyritis",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Milk River (Rivière)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/317-18",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp317p1.jpg",
+     "Reason": "Historical river modifications, including the construction of dams and water diversions, have significantly reduced and fragmented its habitat. Additionally, competition with and predation by non-native species, as well as water quality degradation, have further contributed to its decline.",
+     "Description": "This small freshwater fish averages between 2.5 to 3.5 inches in length. It boasts a slender and elongated body that shimmers with a silver hue, giving it its common name. Its snout is slightly overhanging, and it has a terminal mouth.",
+     "Fun_Fact": "The Western Silvery Minnow has an ability to survive in turbid waters, an adaptation that has allowed it to thrive in riverine environments where other fish species might not fare as well."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Atlantic Whitefish",
+     "Population_EN": null,
+     "Scientific_Name": "Coregonus huntsmani",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Hebb Lake (Lac), Milipsigate Lake (Lac),Minamkeak Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
+     "Lead_Region": "Maritimes",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg",
+     "Reason": "The Atlantic Whitefish is endangered primarily due to habitat loss and degradation caused by urbanization, agriculture, and industrial activities. Additionally, the introduction of non-native species and competition with invasive fish species have further threatened its population.",
+     "Description": "The Atlantic Whitefish, Coregonus huntsmani, is a rare freshwater fish species native to eastern Canada, known for its silvery-white appearance and streamlined body. It inhabits cold, clear lakes and rivers and is characterized by a forked tail fin.",
+     "Fun_Fact": "Atlantic Whitefish have an ancient lineage, dating back to the last ice age, making them a living relic of the past.These fish have a unique ecological role as they are known to control the population of aquatic insects, contributing to the balance of their ecosystems."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Rainbow Smelt",
+     "Population_EN": "Lake Utopia Small-Bodied",
+     "Scientific_Name": "Osmerus mordax",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Lake Utopia (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
+     "Lead_Region": "Maritimes",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg",
+     "Reason": "While the Rainbow Smelt is not globally endangered, in some areas, their populations have faced declines due to habitat loss, water pollution, and barriers to migration like dams. Overfishing in certain regions has also contributed to their reduced numbers.",
+     "Description": "The Rainbow Smelt is a small, slender fish that can reach up to 12 inches in length but more commonly averages 6-7 inches. It displays a silvery color with a bluish-green back, and during the spawning season, males develop a pinkish hue on their sides. They also possess a distinctive cucumber-like smell.",
+     "Fun_Fact": "Rainbow Smelt can tolerate a wide range of salinities, allowing them to live in both freshwater and marine environments. This adaptability leads to their unique behavior of migrating from saltwater to freshwater to spawn."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "North Atlantic Right Whale",
+     "Population_EN": null,
+     "Scientific_Name": "Eubalaena glacialis",
+     "Eco_Type": "Marine",
+     "Waterbody": "Grand Manan Basin (Bassin),Roseway Basin (Bassin)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/780-298",
+     "Lead_Region": "Maritimes",
+     "Support_Region": "Quebec, Gulf, Newfoundland and Labrador",
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp780p1.jpg",
+     "Reason": "The North Atlantic Right Whale is critically endangered, primarily due to human-induced threats. These include entanglement in fishing gear, vessel strikes, noise pollution, and habitat degradation. Their slow reproductive rates combined with these threats have kept their population numbers critically low.",
+     "Description": "The North Atlantic Right Whale is a large baleen whale, reaching lengths up to 52 feet (16 meters). They have a black or dark gray body with occasional white patches on their belly. A key feature distinguishing them from other whales is the presence of roughened patches of skin, called callosities, on their heads, which are colonized by small organisms giving them a white appearance.",
+     "Fun_Fact": "North Atlantic Right Whales got their name because they were historically the right whales to hunt, as they float when killed and are rich in oil and baleen. This trait, unfortunately, led to their severe decline due to whaling."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Northern Bottlenose Whale",
+     "Population_EN": "Scotian Shelf",
+     "Scientific_Name": "Hyperoodon ampullatus",
+     "Eco_Type": "Marine",
+     "Waterbody": "Haldimand Canyon (Canyon), Shortland Canyon (Canyon), The Gully/Le Goulet",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/162-299",
+     "Lead_Region": "Maritimes",
+     "Support_Region": "Newfoundland and Labrador",
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp162p1.jpg",
+     "Reason": "While the exact population size of the Northern Bottlenose Whale is unknown, they face threats from human activities. These include entanglement in fishing gear, noise pollution from naval exercises and offshore oil and gas exploration, and potential shifts in prey availability due to climate change.",
+     "Description": "The Northern Bottlenose Whale is a beaked whale, with a distinct bulbous forehead in mature males. They can grow up to 10 meters (33 feet) in length. Their skin is typically dark gray to brownish, lightening with age, and they possess a small dorsal fin set two-thirds of the way down their back.",
+     "Fun_Fact": "Northern Bottlenose Whales are deep divers, known to plunge to depths of over 1,400 meters (4,600 feet) to feed, mainly on squid. This makes them one of the deepest diving of all cetaceans."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Cultus Pygmy Sculpin",
+     "Population_EN": "Cultus",
+     "Scientific_Name": "Cottus aleuticus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Cultus Lake (Lac)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/300-213",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp300p1.jpg",
+     "Reason": "Given its limited habitat range, the Cultus Pygmy Sculpin is highly vulnerable to disturbances in Cultus Lake. Threats include habitat degradation due to human activities, introduction of non-native species, and potential changes in water quality. Ensuring the health and stability of Cultus Lake is paramount to the survival of this unique species.",
+     "Description": "The Cultus Pygmy Sculpin is a small fish, typically measuring less than 60 mm in length. It has a slender body, a broad head with a flattened snout, and a distinct pattern of mottling on its body. Its small size and mottled pattern help it blend seamlessly with the lake's substrate.",
+     "Fun_Fact": "The Cultus Pygmy Sculpin is an incredibly localized species, found only in Cultus Lake in British Columbia, Canada. This makes it one of the most geographically restricted freshwater fishes in the world."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Paxton Lake Benthic Threespine Stickleback",
+     "Population_EN": null,
+     "Scientific_Name": "Gasterosteus aculeatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Paxton Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/544-222",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp544p1.jpg",
+     "Reason": "Their confinement to a singular lake (Paxton Lake) on Texada Island, British Columbia, makes them extremely vulnerable to environmental changes and threats like pollution, habitat alteration, and introduction of invasive species. Protecting their unique ecosystem is crucial to their survival.",
+     "Description": "The limnetic form of the Paxton Lake Threespine Stickleback is slender with a streamlined body, adapted for life in the open water. They have larger eyes and a more protruding mouth than their benthic counterparts, characteristics that aid them in preying on zooplankton.",
+     "Fun_Fact": "The Paxton Lake Limnetic Threespine Stickleback is a testament to rapid evolution. This species, along with its benthic counterpart in the same lake, evolved as distinct forms from a common ancestor in less than 12,000 years."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Paxton Lake Limnetic Threespine Stickleback",
+     "Population_EN": null,
+     "Scientific_Name": "Gasterosteus aculeatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Paxton Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/554-227",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://www.hlasek.com/foto/gasterosteus_aculeatus_hd1792.jpg",
+     "Reason": "The Paxton Lake Limnetic Threespine Stickleback faces threats from habitat alteration, especially from human recreational activities in and around Paxton Lake. Additionally, the introduction of non-native species could disrupt the balance between the limnetic and benthic forms, leading to hybridization and potential loss of the distinct limnetic form. Conservation of this species emphasizes the importance of preserving unique evolutionary phenomena in nature.",
+     "Description": "This limnetic form of Threespine Stickleback is slender with a streamlined body, adapted for life in the open water of Paxton Lake. It feeds primarily on zooplankton and is characterized by long, thin gill rakers and a more delicate body structure compared to its benthic counterpart.",
+     "Fun_Fact": "The Paxton Lake Limnetic Threespine Stickleback is a product of rapid evolutionary divergence. In some lakes, two distinct forms (benthic and limnetic) have evolved from a common ancestor in less than 10,000 years, showcasing nature's remarkable adaptability."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Vananda Creek Benthic Threespine Stickleback",
+     "Population_EN": null,
+     "Scientific_Name": "Gasterosteus aculeatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Vananda Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/600-242",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife.ca.gov/portals/0/Images/InlandFisheries/Projects/SanFelipe/FIGURE1.jpg",
+     "Reason": "This stickleback's very limited distribution (restricted to just one location) makes it extremely vulnerable to disturbances. Habitat alteration, introduction of invasive species, and water quality changes pose significant threats. Conservation efforts are essential to protect this unique example of rapid evolutionary change.",
+     "Description": "The Vananda Creek Benthic Threespine Stickleback is a small fish, typically measuring 40-60 mm in length. It has a chunkier body compared to its limnetic counterparts and exhibits a reduced number of lateral plates. Its jaws and gill rakers are adapted to a benthic (bottom-dwelling) lifestyle, feeding primarily on larger prey items found on or near the lakebed.",
+     "Fun_Fact": "The Vananda Creek Benthic Threespine Stickleback, along with the Paxton Lake Benthic Threespine Stickleback, represent a remarkable instance of rapid evolutionary divergence on Texada Island, British Columbia. These species have evolved distinct morphological differences from their ancestral marine populations in just about 10,000 years, a blink of an eye in evolutionary terms."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Vananda Creek Limnetic Threespine Stickleback",
+     "Population_EN": null,
+     "Scientific_Name": "Gasterosteus aculeatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Vananda Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/604-245",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://portal.ct.gov/-/media/DEEP/fishing/freshwater/freshwater_fishes/Sticklebacks/80aThreespineStickleback8cmAcompressed.jpg?sc_lang=en&hash=D71B8C9CEFCE2B5D0DBC6CDDC3E6DADE",
+     "Reason": "The specificity of its habitat and various human disturbances, like introduction of non-native species and habitat alteration, have made this stickleback highly endangered. Once found in a handful of locations, habitat loss and predation by introduced species have driven it to the brink of extinction in some locales. Conservation efforts are essential to protect these unique evolutionary marvels.",
+     "Description": "This stickleback variant has a slender body adapted for life in open water. Its long, delicate jaws are suited for catching small, free-floating prey. Typically, limnetic sticklebacks are more silvery and have bigger eyes compared to their benthic counterparts, which are more robust with shorter snouts.",
+     "Fun_Fact": "The Vananda Creek Limnetic Threespine Stickleback is a product of rapid evolutionary divergence. Historically, this fish and its benthic counterpart shared common ancestors, but they evolved separately to exploit different ecological niches in their habitats."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "White Sturgeon",
+     "Population_EN": "Upper Columbia River",
+     "Scientific_Name": "Acipenser transmontanus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Bowron River (Rivière),Fraser River/Fleuve Fraser,Nechako River (Rivière), Kootenay Lake (Lac), Stuart Lake (Lac),Stuart River (Rivière),Trembleur Lake (Lac), Columbia River/Fleuve Columbia,Lower Kootenay River (Rivière),Upper Arrow Lake (Lac),Fraser Lake (Lac),Nautley River (Rivière),Nechako River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/123-692",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp123p1.jpg",
+     "Reason": "These giants face numerous threats, including habitat loss due to dam construction, overfishing, and pollution. Proper management and conservation efforts are essential to protect their spawning grounds and ensure the survival of this ancient species.",
+     "Description": "White Sturgeons have a prehistoric appearance, with a long, slender body covered in five rows of bony plates called scutes. They possess a shark-like tail and a long snout with four barbels (whisker-like sensory organs) in front of their mouth. They can grow up to 20 feet in length and weigh over 1,500 pounds.",
+     "Fun_Fact": "White Sturgeons are the largest freshwater fish in North America, and some individuals have been known to live over 100 years!"
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Copper Redhorse",
+     "Population_EN": null,
+     "Scientific_Name": "Moxostoma hubbsi",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Barrage de Chambly (Dam),Rivière Richelieu (River),Barrage Saint-Ours (Dam),St. Lawrence River/Fleuve Saint-Laurent",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/75-54",
+     "Lead_Region": "Quebec",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp075p1.jpg",
+     "Reason": "The Copper Redhorse is endangered primarily due to habitat destruction and fragmentation, caused by dam construction and river channelization, which disrupt their spawning and feeding habitats. Pollution and the introduction of invasive species also pose significant threats to their population.",
+     "Description": "The Copper Redhorse, Moxostoma hubbsi, is a rare freshwater fish species found in North America, known for its coppery-bronze coloration and distinctive, downward-facing mouth. It resides in clear, flowing waters, particularly in the St. Lawrence River and its tributaries.",
+     "Fun_Fact": "Copper Redhorses are known for their unique feeding behavior where they use their specialized mouths to forage on the riverbed, primarily consuming insect larvae and mollusks.This fish has an interesting reproductive strategy; they lay their eggs in fast-flowing waters where the current helps oxygenate and protect them."
+    }
+   },
+ 
+  
+   {
+    "attributes": {
+     "Common_Name_EN": "Eastern Sand Darter",
+     "Population_EN": "Quebec",
+     "Scientific_Name": "Ammocrypta pellucida",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Rivière-aux-Saumons (River),Rivière L'Assomption et Rivière Ouareau (River),Rivière Richelieu (River)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1076-734",
+     "Lead_Region": "Quebec",
+     "Support_Region": null,
+     "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/6228288/large.jpg",
+     "Reason": "Many species of Sand Darters are threatened due to sedimentation, habitat loss from damming and channelization, and pollution. Protecting their sandy habitats from disturbances is crucial for their survival.",
+     "Description": "Sand Darters are small, translucent fish with elongated bodies. Their transparent nature and fine, sand-like speckles allow them to blend seamlessly with sandy riverbeds, making them nearly invisible when buried.",
+     "Fun_Fact": "Sand Darters are so named because they have the unique ability to bury themselves in the sand, leaving only their eyes exposed, as a way to ambush prey and evade predators."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Spring Cisco",
+     "Population_EN": null,
+     "Scientific_Name": "Coregonus sp",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Lac des Écorces (Lake)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/119-406",
+     "Lead_Region": "Quebec",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp119p1.jpg",
+     "Reason": "The Spring Cisco is endangered due to a combination of factors, including habitat loss and degradation, pollution, overfishing, and competition with introduced fish species. Climate change and changes in lake ecosystems further threaten their survival by altering their habitats and food sources.",
+     "Description": "The Spring Cisco, Coregonus sp., is a small, silvery freshwater fish found in North America, particularly in clear, cold lakes. It is known for its slender body and forked tail fin, making it well-adapted to its aquatic habitat.",
+     "Fun_Fact": "Spring Ciscos are a crucial part of the food web in their ecosystems, serving as prey for larger fish and birds.These fish are known for their seasonal migrations, moving between deep and shallow waters in the spring and fall."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Beluga Whale",
+     "Population_EN": "St. Lawrence Estuary",
+     "Scientific_Name": "Delphinapterus leucas",
+     "Eco_Type": "Marine",
+     "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/102-111",
+     "Lead_Region": "Quebec",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp102p1.jpg",
+     "Reason": "Beluga Whales are considered threatened or endangered in some regions due to multiple factors, including habitat degradation, industrial pollution, climate change, and overharvesting. The loss of their icy Arctic habitats, as well as contamination from pollutants like heavy metals, pose significant threats to their populations.",
+     "Description": "The Beluga Whale, or Delphinapterus leucas, is a distinctive and highly social marine mammal known for its pure white coloration and rounded forehead, or melon.They inhabit Arctic and subarctic waters and are known for their vocalizations, earning them the nickname canaries of the sea.",
+     "Fun_Fact": "Beluga Whales have the ability to change the shape of their melon to create various facial expressions, a unique adaptation among cetaceans.They are known to be among the most vocal of all whales, communicating with a complex system of clicks, whistles, and chirps, which helps them navigate and socialize in their underwater world."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Harbour Seal",
+     "Population_EN": "Lacs des Loups Marins",
+     "Scientific_Name": "Phoca vitulina mellonae",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Lac Bourdel (Lake),Lacs des Loups Marins (Lakes),Petit lac des Loups Marins (Lake)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/159-427",
+     "Lead_Region": "Quebec",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp159p1.jpg",
+     "Reason": "The Harbour Seal is endangered due to habitat loss, disturbance from human activities, and changes in water quality in their freshwater habitats.",
+     "Description": "The Harbour Seal, also known as the common seal, is a marine mammal that is well-adapted to both saltwater and freshwater environments. They are known for their playful behavior and are often spotted near the shores of lakes and rivers.",
+     "Fun_Fact": "Harbour Seals have a unique pattern of spots on their fur, and no two individuals have the same pattern, making it easy to identify them."
+    }
+   },
+  
    
-     {
-      "attributes": {
-       "Common_Name_EN": "Pugnose Shiner",
-       "Population_EN": null,
-       "Scientific_Name": "Notropis anogenus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Little Bear Creek (Crique)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Lilliput",
-       "Population_EN": null,
-       "Scientific_Name": "Toxolasma parvum",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Belle River (Rivière),Ruscom River (Rivière),Welland River (Rivière),Cootes Paradise (Marche),Grand River (Rivière),Hamilton Harbour (Havre),Jordan Harbour (Havre),East Sydenham River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Pugnose Minnow",
-       "Population_EN": null,
-       "Scientific_Name": "Opsopoeodus emiliae",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Canard River/Rivière aux Canards,Grape Run (Passage),Little Bear Creek (Crique),Maxwell Creek (Crique),North Sydenham River (Rivière),Sydenham River (Rivière)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp107p1.jpg"
-      }
-     },
-   
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Eastern Sand Darter",
-       "Population_EN": "Ontario",
-       "Scientific_Name": "Ammocrypta pellucida",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Big Creek (Crique),Fansher Creek (Crique),Grand River (Rivière),Lower Thames River (Rivière),Sydenham River (Rivière)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Lake Chubsucker",
-       "Population_EN": null,
-       "Scientific_Name": "Erimyzon sucetta",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek, L Lake (Lac), Long Point (Pointe), Lyons Creek (Crique), Old Ausable Channel (Chenal), Point Pelee National Park/Parc national du Canada de la Pointe-Pelée, Rondeau Bay (Baie), St. Clair National Wildlife Area/Réserve nationale de faune de Sainte-Claire",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp101p1.jpg"
-      }
-     },
-   
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Madtom",
-       "Population_EN": null,
-       "Scientific_Name": "Noturus stigmosus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Lower Thames River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Kidneyshell",
-       "Population_EN": null,
-       "Scientific_Name": "Ptychobranchus fasciolaris",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Ausable River (Rivière), Medway Creek (Crique), Lower Thames River (Rivière), East Sydenham River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp774p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Riffleshell",
-       "Population_EN": null,
-       "Scientific_Name": "Epioblasma rangiana",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "East Sydenham River (Rivière), Ausable River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/582-234",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp582p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Rayed Bean",
-       "Population_EN": null,
-       "Scientific_Name": "Villosa fabalis",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "North Thames River (Rivière), East Sydenham River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/581-233",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp581p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Round Hickorynut",
-       "Population_EN": null,
-       "Scientific_Name": "Obovaria subrotunda",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "East Sydenham River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/768-305",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp768p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Round Pigtoe",
-       "Population_EN": null,
-       "Scientific_Name": "Pleurobema sintoxia",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "South Thames River (Rivière), ast Sydenham River (Rivière), Middle Thames River (Rivière), Bear Creek (Crique), Grand River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp817p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Salamander Mussel",
-       "Population_EN": null,
-       "Scientific_Name": "Simpsonaias ambigua",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "East Sydenham River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/671-263",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp671p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Snuffbox",
-       "Population_EN": null,
-       "Scientific_Name": "Epioblasma triquetra",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "East Sydenham River (Rivière), Ausable River (Rivière)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/670-262",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp670p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Rainbow Smelt",
-       "Population_EN": "Lake Utopia Small-Bodied",
-       "Scientific_Name": "Osmerus mordax",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Second Brook (Ruisseau), Smelt Brook (Ruisseau), Unnamed Brook (Ruisseau)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
-       "Lead_Region": "Maritimes",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Atlantic Whitefish",
-       "Population_EN": null,
-       "Scientific_Name": "Coregonus huntsmani",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Minamkeak Brook (Ruisseau)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
-       "Lead_Region": "Maritimes",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Northern Wolffish",
-       "Population_EN": null,
-       "Scientific_Name": "Anarhichas denticulatus",
-       "Eco_Type": "Marine",
-       "Waterbody": "Atlantic Ocean/Océan Atlantique, Gulf of St Lawrence/Golfe du Saint-Laurent",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/667-260",
-       "Lead_Region": "Newfoundland and Labrador",
-       "Support_Region": "Quebec",
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp667p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Spotted Wolffish",
-       "Population_EN": null,
-       "Scientific_Name": "Anarhichas minor",
-       "Eco_Type": "Marine",
-       "Waterbody": "Atlantic Ocean/Océan Atlantique, Gulf of St Lawrence/Golfe du Saint-Laurent",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/669-261",
-       "Lead_Region": "Newfoundland and Labrador",
-       "Support_Region": "Quebec",
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp669p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Salish Sucker",
-       "Population_EN": null,
-       "Scientific_Name": "Catostomus catostomus ssp",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Agassiz Slough (Marécage), Fishtrap Creek (Crique), Hope Slough (Marécage), Miami River (Rivière), Mountain Slough (Marécage), Salmon River (Rivière), Salwein Creek, Hopedale Slough (Crique, Marécage), Chilliwack Delta (Delta), Bertrand Creek (Crique), Little Campbell River (Rivière)  - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
-       "Lead_Region": "Pacific",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp067p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Pugnose Shiner",
-       "Population_EN": null,
-       "Scientific_Name": "Notropis anogenus",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent, Long Point (Pointe)",
-       "SARA_Status": "Threatened",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg"
-      }
-     },
-     {
-      "attributes": {
-       "Common_Name_EN": "Rainbow Trout",
-       "Population_EN": "Athabasca River",
-       "Scientific_Name": "Oncorhynchus mykiss",
-       "Eco_Type": "Freshwater",
-       "Waterbody": "Adams Creek (Crique), Anderson Creek (Crique), Antler Creek (Crique), Apetowun Creek (Crique), Bacon Creek (Crique), Barbara Creek (Crique), Baril Creek (Crique), Baseline Creek (Crique), Bear Creek (Crique), Beaver Creek (Crique), Beaverdam Creek (Crique), Berland River (Rivière), Big Creek (Crique), Broad Creek (Crique), Buffalo Prairie Creek (Crique), Cabin Creek (Crique), Canyon Creek (Crique), Carson Creek (Crique), Centre Creek (Crique), Chance Creek (Crique)",
-       "SARA_Status": "Endangered",
-       "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
-       "Lead_Region": "Central and Arctic",
-       "Support_Region": null,
-       "Image": "https://a-z-animals.com/media/2023/02/Rainbow-Trout.jpg"
-      }
-     }
-    
-    ]
+   {
+    "attributes": {
+     "Common_Name_EN": "Atlantic Salmon",
+     "Population_EN": "Inner Bay of Fundy",
+     "Scientific_Name": "Salmo salar",
+     "Eco_Type": "Anadromous",
+     "Waterbody": "Big Salmon River (Rivière),Debert River (Rivière),Economy River (Rivière),Folly River (Rivière),Gaspereau River (Rivière),Great Village River (Rivière),Point Wolfe River (Rivière),Portapique River (Rivière),Stewiacke River (Rivière),Upper Salmon River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/672-264",
+     "Lead_Region": "Maritimes",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp672p1.jpg",
+     "Reason": "The Atlantic Salmon is endangered due to habitat loss, overfishing, and pollution of rivers and streams.",
+     "Description": "The Atlantic Salmon is a migratory fish species that is famous for its epic journeys from the ocean to spawn in freshwater rivers. It is a symbol of strength and resilience in the face of numerous challenges.",
+     "Fun_Fact": "Atlantic Salmon can leap up to 12 feet in the air when attempting to pass waterfalls or obstacles in rivers during their migration."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Fawnsfoot",
+     "Population_EN": null,
+     "Scientific_Name": "Truncilla donaciformis",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Grand River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg",
+     "Reason": "This species is endangered due to habitat loss and water pollution.",
+     "Description": "The Fawnsfoot is a freshwater mussel known for its distinctive shell shape, resembling the footprint of a fawn. It is an important part of the aquatic ecosystem.",
+     "Fun_Fact": "Fawnsfoot mussels play a vital role in filtering and cleaning the water in rivers and streams."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Threehorn Wartyback",
+     "Population_EN": null,
+     "Scientific_Name": "Obliquaria reflexa",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Grand River (Rivière)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://inaturalist-open-data.s3.amazonaws.com/photos/89450/large.jpg",
+     "Reason": "The Threehorn Wartyback is threatened due to habitat degradation, pollution, and changes in water quality in its freshwater habitat.",
+     "Description": "The Threehorn Wartyback is a freshwater mussel known for its unique shell shape, featuring three prominent knobs or horns on its shell. It plays a vital role in maintaining the health of freshwater ecosystems.",
+     "Fun_Fact": "The Threehorn name comes from the three distinctive knobs on its shell, which make it easily recognizable among other freshwater mussels."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Misty Lake Lentic Threespine Stickleback",
+     "Population_EN": null,
+     "Scientific_Name": "Gasterosteus aculeatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Misty Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/952-671",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://www.aquariumofpacific.org/images/olc/AlaskaStreamMale_f.jpg",
+     "Reason": "The Misty Lake Lentic Threespine Stickleback, a specific population of the Threespine Stickleback, faces threats from habitat alteration, invasive species, and human disturbances. Protection of their specific habitats in Misty Lake and understanding their ecological significance is critical for their conservation.",
+     "Description": "This tiny fish has three prominent spines on its dorsal (back) side, giving it the name threespine. Its body is slender and slightly compressed, with a variation of coloration that can range from silvery to darker shades, depending on its environment and life stage.",
+     "Fun_Fact": "Threespine Sticklebacks are unique for their rapid evolutionary adaptations. They've evolved different body forms in response to various environmental conditions in just a few thousand years!"
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Misty Lake Lotic Threespine Stickleback",
+     "Population_EN": null,
+     "Scientific_Name": "Gasterosteus aculeatus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Misty Lake (Lac)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/953-672",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://nas.er.usgs.gov/XIMAGESERVERX/2019/20190506121725.jpg",
+     "Reason": "One significant reason for their decline in certain areas is habitat degradation and loss. Human activities such as urban development, agriculture, and habitat destruction can negatively impact the stickleback's freshwater and estuarine habitats, potentially reducing their numbers.",
+     "Description": "Three-spined sticklebacks are typically small, measuring around 2 to 4 inches (5 to 10 centimeters) in length.They have a slender, cylindrical body shape with a relatively short snout.",
+     "Fun_Fact": "One fascinating aspect of three-spined stickleback behavior is their nest-building. Males of this species construct elaborate nests by weaving together plant material and bits of algae. These nests serve both as shelter for the eggs and as a means for males to attract females. Males vigorously defend their nests against other males and predators during the breeding season. Their nest-building behavior is not only interesting but also plays a crucial role in their reproductive success."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Silver Shiner",
+     "Population_EN": null,
+     "Scientific_Name": "Notropis photogenis",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Avon River (Rivière),Black Creek (Crique),Bronte Creek (Crique),Conestogo River (Rivière),Dingman Creek (Crique),Grand River (Rivière),Medway Creek (Crique),Middle Thames River (Rivière),Nith River (Rivière),North Thames River (Rivière),Oxbow Creek (Crique),Sixteen Mile Creek (Crique),Stoney Creek (Crique),Thames River/Rivière Thames,Trout Creek (Crique),Wye Creek (Crique),East Sixteen Mile Creek (Crique),South Thames River (Rivière),Fish Creek (Crique),Whirl Creek (Crique)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/115-414",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp115p1.jpg",
+     "Reason": "One significant reason for its decline is habitat loss and alteration. Urbanization, agriculture, and industrial development have led to the destruction and degradation of the Silver Shiner's natural habitat, which includes clear, flowing streams and rivers. This loss of suitable habitat disrupts their breeding and feeding patterns, making it challenging for these fish to thrive.",
+     "Description": "These fish are relatively small, typically measuring around 2 to 3 inches (5 to 7.5 centimeters) in length.As their name suggests, Silver Shiners have a silvery coloration on their bodies, which helps them blend in with the reflective surfaces of the water. They have a streamlined and elongated body shape.",
+     "Fun_Fact": "The Silver Shiner has a unique adaptation to its habitat. Their streamlined body and silvery coloration are not just for aesthetics; they also serve as camouflage and help these fish avoid predators. By blending into the reflective surface of the water, Silver Shiners can reduce their visibility to birds and other aquatic predators that might hunt them from above or below. This adaptation is a clever survival strategy that has evolved over time to help them thrive in their natural environment."
    }
+ },
+   
+   {
+    "attributes": {
+     "Common_Name_EN": "Killer Whale",
+     "Population_EN": "Northeast Pacific Northern Resident",
+     "Scientific_Name": "Orcinus orca",
+     "Eco_Type": "Marine",
+     "Waterbody": "Pacific Ocean/Océan Pacifique, Pacific Ocean/Océan Pacifique",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/698-8",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp698p1.jpg",
+     "Reason": "Killer whales have specialized diets, with different populations preferring various prey species, such as salmon, seals, and other marine mammals. Overfishing and declines in prey populations due to factors like habitat degradation and climate change can result in food scarcity for these whales. If they cannot find enough food to sustain themselves, it can impact their health, reproductive success, and overall survival.",
+     "Description": "Killer whales, or Orcinus orca, are highly intelligent and social marine mammals. They are known for their striking black and white coloration, powerful swimming abilities, and distinct saddle patch behind their dorsal fin. Adult killer whales can range from 16 to 32 feet (5 to 10 meters) in length, with males typically being larger than females.",
+     "Fun_Fact": "Killer whales are often referred to as killer whales due to their reputation as apex predators, but they are actually part of the dolphin family. In fact, they are the largest members of the dolphin family. Despite their fearsome name, killer whales are known for their complex and sophisticated behaviors, including cooperative hunting strategies, vocal dialects within pods, and even cultural differences in behaviors between different populations."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Channel Darter",
+     "Population_EN": "Lake Erie",
+     "Scientific_Name": "Percina copelandi",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Point Pelee (Pointe), Black River (Rivière),Moira River (Rivière),Salmon River (Rivière),Skootamatta River (Rivière),Trent River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1344-977",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://www.thelandbetween.ca/wp-content/uploads/bb-plugin/cache/Channel-Darter-Bio-landscape-552c8d62b7bf0fcd34172fd80499776b-z2kr6vf8tpql.jpeg",
+     "Reason": "The decline of the Channel Darter (Percina copelandi) is primarily attributed to habitat degradation and loss. Human activities such as dam construction, water pollution, and habitat alteration have had detrimental effects on this species. Additionally, the Channel Darter has a limited distribution range, making it vulnerable to localized threats.",
+     "Description": "Typically, Channel Darters are about 2.5 to 4 inches (6 to 10 centimeters) in length.They have a striking appearance with a predominantly olive-green or brownish body color. They exhibit a pattern of dark bars or stripes running horizontally along their sides.",
+     "Fun_Fact": "Channel Darters are known for their unique reproductive behavior. During the breeding season, males construct small depressions or nests in the substrate, typically under rocks or gravel, to attract females. Once a female chooses a nest, she lays her eggs in it, and the male guards the nest and the eggs until they hatch. This behavior is a fascinating example of parental care in the world of freshwater fish and helps ensure the survival of their offspring in their rocky stream habitats."
+    }
+   },
+  
+   {
+    "attributes": {
+     "Common_Name_EN": "Pugnose Shiner",
+     "Population_EN": null,
+     "Scientific_Name": "Notropis anogenus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "St. Lawrence River/Fleuve Saint-Laurent, Long Point (Pointe), Little Bear Creek (Crique), East Lake (Lac),Mouth Lake (Lac),Old Ausable Channel (Chenal), Big Creek (Crique),Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/108-280",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp108p1.jpg",
+      "Reason": "One of the primary reasons for the decline of the pugnose shiner is the loss and alteration of its natural habitat. Urbanization, agriculture, and industrial activities often result in the destruction and degradation of the streams and rivers that these fish rely on for survival. Dam construction, channelization, and water diversion can also disrupt their habitats.",
+      "Description": "The pugnose shiner (Notropis anogenus) is a small, slender freshwater fish native to North America. It belongs to the family Cyprinidae, which includes various species of minnows and shiners. ",
+      "Fun_Fact": "The pugnose shiner, a small and unassuming fish, has a unique feature that sets it apart from many other species. When males are in breeding condition, they develop a bright red snout, giving them the appearance of having a pugnose, which is where the fish gets its name. This distinctive red snout is used to attract females during the mating season."
+    }
+   },
+ 
+  
+   {
+    "attributes": {
+     "Common_Name_EN": "Nooksack Dace",
+     "Population_EN": null,
+     "Scientific_Name": "Rhinichthys cataractae ssp",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Bertrand Creek (Crique), Fishtrap Creek (Crique),Pepin Creek (Crique) , Bertrand Creek (Crique),Brunette River (Rivière)- Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/66-49",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp066p1.jpg",
+     "Reason": "Urbanization, agriculture, and land development have led to the destruction and degradation of the Nooksack Dace's natural habitat. Deforestation, water diversion, and pollution have altered the streams and rivers where they reside, reducing the availability of suitable habitats.",
+     "Description": "These fish are typically small, reaching lengths of 2 to 3 inches (5 to 7.5 centimeters).Nooksack Dace have a silvery body with a lateral line running along their sides. Their fins may have a reddish or orange tint.",
+     "Fun_Fact": "One interesting aspect of the Nooksack Dace is its role as an indicator species. Just like canaries were used in coal mines to detect dangerous gases, Nooksack Dace can serve as indicators of the overall health of aquatic ecosystems. Their presence and abundance can provide valuable information about the water quality and ecological conditions in their habitats, making them important subjects for conservation efforts."
+    }
+   },
+   
+   {
+    "attributes": {
+     "Common_Name_EN": "Threehorn Wartyback",
+     "Population_EN": null,
+     "Scientific_Name": "Obliquaria reflexa",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Bear Creek (Crique),Sydenham River (Rivière),Thames River/Rivière Thames",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1239-896",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://people.se.cmich.edu/zanat1d/obliquaria-cranecreek.jpg",
+     "Reason": "The Threehorn Wartyback (Obliquaria reflexa) is an endangered freshwater mussel species primarily found in North America. One significant reason for its decline is habitat destruction and alteration. The alteration of river systems, including dam construction, channelization, and other human activities, has disrupted the natural flow and sediment transport in rivers. This alteration negatively affects the mussel's habitat, as it relies on stable, undisturbed riverbeds with clean gravel and sand for its survival. Additionally, increased pollution and sedimentation from agriculture and urban runoff have further degraded the water quality in the rivers where the Threehorn Wartyback resides, making it difficult for these mussels to thrive.",
+     "Description": "This mussel species has a large, elongated, and somewhat triangular shell with a wavy or undulating shape. The shell's surface is covered in prominent knobs or warts, which give it a rough texture and make it easily distinguishable from other mussel species.",
+     "Fun_Fact": "Freshwater mussels, including the Threehorn Wartyback, are fascinating creatures with a unique reproductive strategy. They often rely on host fish to complete their life cycle. The mussel releases its larvae (called glochidia) into the water, and these microscopic larvae attach themselves to the gills or fins of specific fish species. They then develop and grow while attached to the fish until they mature into juvenile mussels. Once mature, they drop to the riverbed and continue their life as sedentary filter feeders. This intricate relationship between mussels and fish is critical for the mussel's reproduction and dispersal, making them an important component of freshwater ecosystems."
+    }
+   },
+   
+   {
+    "attributes": {
+     "Common_Name_EN": "Fawnsfoot",
+     "Population_EN": null,
+     "Scientific_Name": "Truncilla donaciformis",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Bear Creek (Crique),Sydenham River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1009-698,Thames River/Rivière Thames",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1009p1.jpg",
+     "Reason": "The fawnsfoot relies on clean, flowing freshwater habitats such as rivers and streams. These habitats have been greatly altered and degraded by activities like dam construction, channelization, and urbanization. These alterations disrupt the mussel's habitat and can lead to reduced water quality, sedimentation, and changes in flow patterns, all of which are harmful to the fawnsfoot.",
+     "Description": "The fawnsfoot is a freshwater mussel species known for its distinctive appearance and important role in aquatic ecosystems.",
+     "Fun_Fact": "Fawnsfoot mussels are fascinating in their reproductive strategy. They are obligate parasites of fish during their larval stage. To reproduce, female fawnsfoot mussels release tiny, parasitic larvae called glochidia into the water. These glochidia attach themselves to the gills or fins of specific fish species. After attaching, they develop and eventually detach to settle on the riverbed as juvenile mussels. This unique strategy relies on a specific relationship between the mussel and its host fish for successful reproduction."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Lilliput",
+     "Population_EN": null,
+     "Scientific_Name": "Toxolasma parvum",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Belle River (Rivière),Ruscom River (Rivière),Welland River (Rivière),Cootes Paradise (Marche),Grand River (Rivière),Hamilton Harbour (Havre),Jordan Harbour (Havre),East Sydenham River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1236-901",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1236p1.jpg",
+     "Reason": "Toxolasma parvum, commonly known as the Lilliput, is facing the threat of extinction primarily due to habitat degradation and water quality issues. This species of freshwater mussel is highly sensitive to environmental changes, and several factors contribute to its decline",
+     "Description": "These mussels are relatively small, with shells typically measuring between 1 and 2 inches (2.5 to 5 centimeters) in length. The shell of the Lilliput varies in color but is often marked with beautiful and intricate patterns of green, yellow, brown, or purple. The appearance of these patterns resembles a rainbow, hence the common name.",
+     "Fun_Fact": "One interesting aspect of freshwater mussels, including the Lilliput, is their role as engineers of aquatic ecosystems. They filter-feed on particles suspended in the water, helping to improve water clarity and quality. Additionally, their activities can create habitat structures that benefit other aquatic organisms, making them important contributors to the health of freshwater ecosystems."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Pugnose Minnow",
+     "Population_EN": null,
+     "Scientific_Name": "Opsopoeodus emiliae",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Canard River/Rivière aux Canards,Grape Run (Passage),Little Bear Creek (Crique),Maxwell Creek (Crique),North Sydenham River (Rivière),Sydenham River (Rivière)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/107-376",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp107p1.jpg",
+     "Reason": "The Pugnose Minnow is considered a species of concern due to habitat degradation and water pollution resulting from agriculture, urban development, and industrial activities. Additionally, the alteration of stream flows and the introduction of non-native species have further threatened their populations by disrupting their natural habitats and ecological balance.",
+     "Description": "The Pugnose Minnow (Opsopoeodus emiliae) is a small freshwater fish native to North America. It is characterized by its streamlined body, silvery coloration, and a distinctive, upturned snout, giving it the appearance of a 'pugnose,' and it typically reaches lengths of up to 3 inches (7.5 centimeters).",
+     "Fun_Fact": "The Pugnose Minnow (Opsopoeodus emiliae) is known for its striking breeding coloration, which includes vibrant blue and yellow markings on males during the breeding season. Additionally, these minnows are known for their distinctive `pugnose,` which is a blunt, upturned snout that sets them apart from other minnow species and aids in their unique feeding habits."
+    }
+   },
+ 
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Eastern Sand Darter",
+     "Population_EN": "Ontario",
+     "Scientific_Name": "Ammocrypta pellucida",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Big Creek (Crique),Fansher Creek (Crique),Grand River (Rivière),Lower Thames River (Rivière),Sydenham River (Rivière)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1075-742",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp1075p1.jpg",
+     "Reason": "Urbanization, agriculture, and industrial development have led to the destruction and alteration of the Eastern Sand Darter's natural habitat. These fish are typically found in clean, clear, and sandy-bottomed streams and rivers. The construction of dams, channelization, and water pollution have disrupted these habitats.",
+     "Description": " Eastern Sand Darters are relatively small, typically measuring between 2 to 3 inches (5 to 7.5 centimeters) in length.They have a translucent or slightly cloudy appearance with a pale silvery or beige body. They may have faint lateral stripes or spots along their sides.",
+     "Fun_Fact": "One interesting aspect of the Eastern Sand Darter's behavior is its reliance on camouflage to avoid predators. They are known to bury themselves in the sandy substrate, leaving only their eyes and dorsal fin exposed. This allows them to blend into their environment and avoid detection by potential threats. This adaptation showcases their remarkable ability to survive in their specialized habitat."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Lake Chubsucker",
+     "Population_EN": null,
+     "Scientific_Name": "Erimyzon sucetta",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Big Creek National Wildlife Area/Réserve nationale de faune du ruisseau Big Creek, L Lake (Lac), Long Point (Pointe), Lyons Creek (Crique), Old Ausable Channel (Chenal), Point Pelee National Park/Parc national du Canada de la Pointe-Pelée, Rondeau Bay (Baie), St. Clair National Wildlife Area/Réserve nationale de faune de Sainte-Claire",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/101-63",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp101p1.jpg",
+     "Reason": "Lake Chubsuckers are endangered due to habitat loss and degradation caused by water pollution, siltation, and the construction of dams and reservoirs that disrupt their native aquatic ecosystems. These alterations to their habitat have made it difficult for Lake Chubsuckers to find suitable breeding and feeding grounds, contributing to their decline.",
+     "Description": "The Lake Chubsucker (Erimyzon sucetta) is a small to medium-sized freshwater fish native to North America. It is characterized by its elongated, cylindrical body, small mouth, and typically olive-green to brownish-gray coloration, often with a dusky stripe along its sides.",
+     "Fun_Fact": "One interesting aspect of the Lake Chubsucker is its unique feeding behavior, where it uses specialized mouthparts to scrape algae and small organisms from submerged rocks and other surfaces. Additionally, this fish has a fascinating ability to tolerate a wide range of water conditions, allowing it to thrive in various freshwater habitats, from lakes to slow-moving streams."
+    }
+   },
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Northern Madtom",
+     "Population_EN": null,
+     "Scientific_Name": "Noturus stigmosus",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Lower Thames River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/297-323",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp297p1.jpg",
+     "Reason": "One of the primary reasons for the decline of the Northern Madtom is habitat degradation and loss. Urbanization, agriculture, and industrial activities have resulted in the destruction and alteration of its natural habitat—clean, cool streams with gravel or rocky substrates. The loss of these habitats reduces the available breeding and feeding grounds for the Northern Madtom.",
+     "Description": "Adults typically grow to be around 2 to 4 inches (5 to 10 centimeters) in length.These catfish are usually pale or light brown with irregular dark blotches along their sides. They have a distinct adipose fin, which is a small, fleshy fin located between the dorsal fin and the tail fin.",
+     "Fun_Fact": "One interesting feature of the Northern Madtom is its ability to produce a mild venom. Located at the base of their pectoral spines, this venom is not harmful to humans but can deter potential predators. When threatened, these catfish may use their venomous spines as a defense mechanism, making them less appealing to potential predators."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Kidneyshell",
+     "Population_EN": null,
+     "Scientific_Name": "Ptychobranchus fasciolaris",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Ausable River (Rivière), Medway Creek (Crique), Lower Thames River (Rivière), East Sydenham River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/774-306",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp774p1.jpg",
+     "Reason": "The Kidneyshell mussel is endangered primarily due to habitat loss and degradation caused by water pollution, sedimentation, and alterations to river flow patterns, which disrupt its native river and stream ecosystems. Additionally, the introduction of invasive species and the decline of its host fish populations, crucial for the mussel's reproduction, have further imperiled its survival.",
+     "Description": "The Kidneyshell (Ptychobranchus fasciolaris) is a medium-sized freshwater mussel native to North America. It is characterized by its kidney-shaped shell, typically light brown to yellowish-green, with distinct concentric ridges on the surface.",
+     "Fun_Fact": "The Kidneyshell mussel (Ptychobranchus fasciolaris) is known for its remarkable ability to create and inhabit burrows in sandy river bottoms, allowing it to evade predators and harsh environmental conditions. These burrows can be several feet deep and provide a safe and stable habitat for the mussel, demonstrating its unique adaptation for survival."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Northern Riffleshell",
+     "Population_EN": null,
+     "Scientific_Name": "Epioblasma rangiana",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "East Sydenham River (Rivière), Ausable River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/582-234",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp582p1.jpg",
+     "Reason": "Dam construction, channelization of rivers, and urbanization have led to the destruction and alteration of the riffle habitats that Northern Riffleshells rely on. These mussels prefer clear, fast-flowing streams with gravel and cobble substrates.",
+     "Description": "The shells of Northern Riffleshells are typically brown or yellowish-brown with concentric ridges. The inside of the shells can vary in color.",
+     "Fun_Fact": "Freshwater mussels, including the Northern Riffleshell, are fascinating creatures because they play a vital role in maintaining water quality in their habitats. A single mussel can filter several gallons of water each day, helping to remove impurities and sediment and contributing to the overall health of the aquatic ecosystem."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Rayed Bean",
+     "Population_EN": null,
+     "Scientific_Name": "Villosa fabalis",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "North Thames River (Rivière), East Sydenham River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/581-233",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp581p1.jpg",
+     "Reason": "The Rayed Bean, a freshwater mussel species, faces endangerment primarily due to habitat destruction and water pollution resulting from agricultural runoff and industrial activities. These factors have led to degraded water quality and the loss of suitable habitats, making it challenging for these mussels to survive and reproduce in their native rivers and streams.",
+     "Description": "The Rayed Bean (Villosa fabalis) is a small to medium-sized freshwater mussel species found in North America. It is recognized by its elongated, oval-shaped shell, which is typically yellow to brownish-green with radiating rays or lines extending from the center of the shell, and it often has fine concentric ridges.",
+     "Fun_Fact": "One interesting aspect of the Rayed Bean is its unique and complex reproductive strategy, which involves attracting host fish to disperse its larvae. These mussels release specialized lures that mimic prey, enticing fish to approach and facilitating the attachment of mussel larvae to the fish's gills, contributing to their dispersal and survival."
+ 
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Round Hickorynut",
+     "Population_EN": null,
+     "Scientific_Name": "Obovaria subrotunda",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "East Sydenham River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/768-305",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp768p1.jpg",
+     "Reason": "Round Hickorynut populations are at risk primarily due to habitat destruction and water pollution, which have severely degraded the quality of the rivers and streams they inhabit. Additionally, the construction of dams and other waterway modifications disrupt their natural habitats and limit their ability to complete their complex life cycle, contributing to their endangered status.",
+     "Description": "The Round Hickorynut (Obovaria subrotunda) is a freshwater mussel species native to North America. It is characterized by its small to medium-sized, nearly spherical shell, which is typically brownish to yellowish in color, and it often displays fine concentric ridges on the surface.",
+     "Fun_Fact": "One interesting fact about the Round Hickorynut is that it has a specialized, club-shaped extension on its foot called a 'pseudobranchia,' which it uses to filter food particles from the water. This unique adaptation sets it apart from many other freshwater mussel species and showcases the fascinating diversity of strategies these creatures employ for survival."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Round Pigtoe",
+     "Population_EN": null,
+     "Scientific_Name": "Pleurobema sintoxia",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "South Thames River (Rivière), ast Sydenham River (Rivière), Middle Thames River (Rivière), Bear Creek (Crique), Grand River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/817-367",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp817p1.jpg",
+     "Reason": "ike many freshwater mussels, the rounded pigtoe is highly sensitive to changes in its habitat. Dam construction, urban development, and agricultural runoff can lead to habitat destruction and alteration. Sedimentation, in particular, is a major threat, as it can smother and suffocate mussels by burying them in silt and sand.",
+     "Description": "These mussels are relatively small, typically reaching lengths of 2 to 3 inches (5 to 7.5 centimeters).",
+     "Fun_Fact": "Freshwater mussels, including the rounded pigtoe, play a crucial role in maintaining water quality. A single mussel can filter many gallons of water each day, helping to remove suspended particles and improve the clarity of the water. This filtration not only benefits other aquatic species but also enhances the overall health of freshwater ecosystems."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Salamander Mussel",
+     "Population_EN": null,
+     "Scientific_Name": "Simpsonaias ambigua",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "East Sydenham River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/671-263",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp671p1.jpg",
+     "Reason": "The Salamander Mussel is endangered primarily due to habitat destruction and water pollution, which have significantly degraded the water quality of the rivers and streams it inhabits. Additionally, this mussel relies on a specific host fish, the Dusky Darter, for the dispersal of its larvae, and the decline of the host fish population further threatens the Salamander Mussel's survival",
+     "Description": "The Salamander Mussel (Simpsonaias ambigua) is a small to medium-sized freshwater mussel species native to North America. It is recognized by its oblong, elliptical shell, typically olive to brownish-green in color, and it often displays a distinctive pitted or ridged texture.",
+     "Fun_Fact": "The Salamander Mussel (Simpsonaias ambigua) is named for its resemblance to a salamander, with its dark, mottled shell resembling the coloration of these amphibians. It is also known for its complex life cycle, which involves a unique strategy of parasitizing host fish to reproduce, making it a fascinating example of aquatic ecology."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Snuffbox",
+     "Population_EN": null,
+     "Scientific_Name": "Epioblasma triquetra",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "East Sydenham River (Rivière), Ausable River (Rivière)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/670-262",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp670p1.jpg",
+     "Reason": "The Snuffbox mussel is critically endangered primarily due to habitat loss and degradation resulting from pollution, siltation, and alterations to the waterways where they reside. Additionally, their decline is linked to the decline of their host fish species, as the Snuffbox relies on these fish for the dispersal of their larvae, making them vulnerable to the impacts on both mussel and host fish populations.",
+     "Description": "The Snuffbox mussel (Epioblasma triquetra) is a small to medium-sized freshwater mussel native to North America. It is known for its distinct, trapezoidal-shaped shell, which is typically yellow to light brown with green rays and fine, concentric lines.",
+     "Fun_Fact": "The Snuffbox mussel (Epioblasma triquetra) is a critically endangered freshwater mussel native to North America. One interesting fact about this mussel is that it has a unique and somewhat square-shaped shell, setting it apart from many other mussel species."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Rocky Mountain Sculpin",
+     "Population_EN": "Eastslope",
+     "Scientific_Name": "Cottus sp.",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Lee Creek (Crique)",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/845-588",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp845p1.jpg",
+     "Reason": "The decline of the Rocky Mountain sculpin (Cottus sp.) is primarily attributed to habitat degradation and loss. Human activities, such as urbanization, agriculture, and mining, have led to the alteration and destruction of the aquatic environments where these fish are found. Pollution from various sources, including runoff from roads and agricultural fields, has also negatively impacted water quality, which is crucial for the survival of Rocky Mountain sculpins.",
+     "Description": "hey have a mottled and cryptic coloration that helps them blend in with the rocky substrates of their habitat. Their coloration can vary, but it generally includes shades of brown, gray, and olive.These fish have a cylindrical body with a flattened head and a large, fan-shaped pectoral fin that they use for stability and maneuvering on the streambed.",
+     "Fun_Fact": "Rocky Mountain sculpins are known for their fascinating mating behavior. During the breeding season, males engage in elaborate courtship displays to attract females. They create and maintain nests by excavating small depressions in the streambed, often under rocks or gravel. Males will then use their pectoral fins to fan water over the eggs to provide oxygen and protect them from silt and debris. This behavior showcases the dedication of these fish to ensuring the survival of their offspring and is an interesting example of their reproductive strategy."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Rainbow Smelt",
+     "Population_EN": "Lake Utopia Small-Bodied",
+     "Scientific_Name": "Osmerus mordax",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Second Brook (Ruisseau), Smelt Brook (Ruisseau), Unnamed Brook (Ruisseau)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/547-223",
+     "Lead_Region": "Maritimes",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp547p1.jpg",
+     "Reason": "Rainbow Smelt populations are threatened by a variety of factors, including habitat destruction and fragmentation due to dams and culverts, which can disrupt their spawning migrations and access to suitable breeding areas. Additionally, the introduction of invasive species, such as the Alewife, has led to increased competition for food and habitat, further imperiling Rainbow Smelt populations in some regions.",
+     "Description": "Rainbow Smelt (Osmerus mordax) are small, silvery fish native to North America, known for their slender, elongated bodies and iridescent coloration, which can display a range of colors from blue to green. They have a distinct forked tail and are often recognized by their prominent lower jaw, extending past the upper jaw, which helps them catch their planktonic prey in the open water of freshwater lakes and rivers.",
+     "Fun_Fact": "Rainbow Smelt are known for their unique spawning behavior, which involves ascending rivers and streams at night to deposit their eggs on sandy or gravelly substrates. During this process, they create dazzling displays of bioluminescent light, illuminating the water with a shimmering spectacle that can be quite mesmerizing to witness."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Atlantic Whitefish",
+     "Population_EN": null,
+     "Scientific_Name": "Coregonus huntsmani",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Minamkeak Brook (Ruisseau)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/64-47",
+     "Lead_Region": "Maritimes",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp064p1.jpg",
+     "Reason": "The Atlantic Whitefish (Coregonus huntsmani) is a critically endangered fish species found in Nova Scotia, Canada. One of the main reasons for its decline is habitat loss and degradation. Urbanization, agriculture, and industrial activities have resulted in the destruction and alteration of the aquatic habitats where this species resides. Additionally, the Atlantic Whitefish faces competition from introduced non-native fish species and predation by invasive species like chain pickerel. The combination of these factors has led to a significant decrease in the population of this species.",
+     "Description": "They have a slender body with a silvery coloration on their sides, a pale belly, and a darker back. Their name whitefish comes from their light-colored appearance.",
+     "Fun_Fact": "The Atlantic Whitefish is a classic example of a living fossil. This term is used to describe species that have remained relatively unchanged in terms of their physical characteristics and genetic makeup over long periods of evolutionary time. While many other species of fish have evolved and diversified significantly, the Atlantic Whitefish has retained its basic form and genetic characteristics for millions of years. This makes it a fascinating and unique species to study in the context of evolution and adaptation to changing environments."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Northern Wolffish",
+     "Population_EN": null,
+     "Scientific_Name": "Anarhichas denticulatus",
+     "Eco_Type": "Marine",
+     "Waterbody": "Atlantic Ocean/Océan Atlantique, Gulf of St Lawrence/Golfe du Saint-Laurent",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/667-260",
+     "Lead_Region": "Newfoundland and Labrador",
+     "Support_Region": "Quebec",
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp667p1.jpg",
+     "Reason": "One of the key reasons Northern Wolffish are considered endangered is overfishing, particularly due to their slow reproductive rate and vulnerability to bycatch in commercial fisheries. Habitat destruction and climate change, which affect their cold-water habitats, also contribute to their threatened status by limiting suitable areas for their survival and reproduction.",
+     "Description": "The Northern Wolffish (Anarhichas denticulatus) is a unique-looking fish species found in the cold waters of the North Atlantic. It is characterized by its long, eel-like body, large, powerful jaws filled with sharp teeth, and a dark, mottled coloration that helps it blend into its rocky, deep-sea habitat.",
+     "Fun_Fact": "Northern Wolffish, found in the cold waters of the North Atlantic, have a striking appearance with powerful jaws filled with sharp teeth, earning them the nickname 'sea wolves.' These fish have a unique way of caring for their eggs; the males build and guard nests made of rocks and shells, fiercely protecting them until the eggs hatch, showcasing their dedication to parenting in the harsh marine environment."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Spotted Wolffish",
+     "Population_EN": null,
+     "Scientific_Name": "Anarhichas minor",
+     "Eco_Type": "Marine",
+     "Waterbody": "Atlantic Ocean/Océan Atlantique, Gulf of St Lawrence/Golfe du Saint-Laurent",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/669-261",
+     "Lead_Region": "Newfoundland and Labrador",
+     "Support_Region": "Quebec",
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp669p1.jpg",
+     "Reason": "The spotted wolffish (Anarhichas minor) faces the threat of overfishing, which is one of the primary reasons for its declining populations and potential risk of extinction. Commercial fishing activities, particularly bottom trawling, have been known to capture and kill spotted wolffish as bycatch. This unintentional capture of the species, combined with its relatively slow reproductive rate, makes it vulnerable to population decline.",
+     "Description": " Spotted wolffish are stout and have a long, eel-like body. They are typically brown or gray with distinctive dark spots covering their body, which gives them their name. These spots help them blend in with their rocky habitat.",
+     "Fun_Fact": "The spotted wolffish has a remarkable ability to produce antifreeze proteins, which allow it to survive in frigid Arctic waters. These proteins prevent the fish's body fluids from freezing at sub-zero temperatures. This adaptation is crucial for their survival in the icy waters of the North Atlantic, where they are often found. It's a fascinating example of how marine life has evolved to thrive in extreme environments."
+    }
+   },
+   {
+    "attributes": {
+     "Common_Name_EN": "Salish Sucker",
+     "Population_EN": null,
+     "Scientific_Name": "Catostomus catostomus ssp",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Agassiz Slough (Marécage), Fishtrap Creek (Crique), Hope Slough (Marécage), Miami River (Rivière), Mountain Slough (Marécage), Salmon River (Rivière), Salwein Creek, Hopedale Slough (Crique, Marécage), Chilliwack Delta (Delta), Bertrand Creek (Crique), Little Campbell River (Rivière)  - Riparian critical habitat not displayed; see Recovery Strategy (L’habitat essentiel riverain n’est pas montré; consultez le Programme de rétablissement).",
+     "SARA_Status": "Threatened",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/67-50",
+     "Lead_Region": "Pacific",
+     "Support_Region": null,
+     "Image": "https://wildlife-species.az.ec.gc.ca/species-risk-registry/images/photos/spp067p1.jpg",
+     "Reason": "Salish Suckers are endangered primarily due to habitat loss and degradation caused by urban development, agriculture, and water pollution in their native range within the Pacific Northwest. Additionally, the alteration of stream flows and the presence of invasive species further threaten their survival by disrupting their sensitive aquatic ecosystems and outcompeting them for resources.",
+     "Description": "The Salish Sucker (Catostomus sp.) is a small, elongated fish native to the Pacific Northwest of North America. It's characterized by its slender body, distinct sucker mouth on the underside, and typically olive to brownish-green coloration, often with a mottled appearance.",
+     "Fun_Fact": "Rainbow Trout have an incredible sense of smell, capable of detecting one drop of scent in 100,000 drops of water, which makes them skilled hunters of aquatic insects and small prey. Additionally, some Rainbow Trout populations exhibit anadromous behavior, migrating between freshwater and saltwater environments, much like salmon, and then returning to their natal streams to spawn."
+    }
+   },
+   
+ 
+   {
+    "attributes": {
+     "Common_Name_EN": "Rainbow Trout",
+     "Population_EN": "Athabasca River",
+     "Scientific_Name": "Oncorhynchus mykiss",
+     "Eco_Type": "Freshwater",
+     "Waterbody": "Adams Creek (Crique), Anderson Creek (Crique), Antler Creek (Crique), Apetowun Creek (Crique), Bacon Creek (Crique), Barbara Creek (Crique), Baril Creek (Crique), Baseline Creek (Crique), Bear Creek (Crique), Beaver Creek (Crique), Beaverdam Creek (Crique), Berland River (Rivière), Big Creek (Crique), Broad Creek (Crique), Buffalo Prairie Creek (Crique), Cabin Creek (Crique), Canyon Creek (Crique), Carson Creek (Crique), Centre Creek (Crique), Chance Creek (Crique)",
+     "SARA_Status": "Endangered",
+     "Species_Link": "https://species-registry.canada.ca/index-en.html#/species/1258-912",
+     "Lead_Region": "Central and Arctic",
+     "Support_Region": null,
+     "Image": "https://a-z-animals.com/media/2023/02/Rainbow-Trout.jpg",
+     "Reason": "One significant reason Rainbow Trout populations are endangered in some areas is due to habitat destruction and degradation caused by urbanization, agriculture, and dam construction, which disrupt their spawning and feeding grounds. Additionally, competition with non-native fish species and the introduction of diseases have also posed threats to their survival in certain ecosystems.",
+     "Description": "Rainbow Trout, scientifically known as Oncorhynchus mykiss, are freshwater fish known for their striking appearance. They typically have a slender, torpedo-shaped body with a steel-blue to olive-green back, silvery sides, and a distinct pink to reddish lateral stripe that gives them their name.",
+     "Fun_Fact": "Rainbow Trout are known for their vibrant colors, but their hues can change depending on their environment and diet, with the most brilliant colors often seen during spawning season. Additionally, they have been introduced to various parts of the world, making them one of the most widely distributed and popular game fish species globally."
+    }
+   }
+  
+  ]
+ }
